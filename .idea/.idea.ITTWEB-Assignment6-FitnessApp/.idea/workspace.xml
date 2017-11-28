@@ -2,84 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f87b17b-3444-46c3-8648-d2c695152ca6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/bin/Debug/netcoreapp2.0/ITTWEB-Assignment6-FitnessApp.dll" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/bin/Debug/netcoreapp2.0/ITTWEB-Assignment6-FitnessApp.pdb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/obj/Debug/netcoreapp2.0/ITTWEB-Assignment6-FitnessApp.csproj.CoreCompileInputs.cache" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/obj/Debug/netcoreapp2.0/ITTWEB-Assignment6-FitnessApp.dll" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/obj/Debug/netcoreapp2.0/ITTWEB-Assignment6-FitnessApp.pdb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/wwwroot/MaterialIcons-Regular.012cf6a10129e2275d79.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/wwwroot/MaterialIcons-Regular.570eb83859dc23dd0eec.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/wwwroot/MaterialIcons-Regular.a37b0c01c0baf1888ca8.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/wwwroot/MaterialIcons-Regular.e79bfd88537def476913.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/bin/Debug/netcoreapp2.0/ITTWEB-Assignment6-FitnessApp.deps.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/bin/Debug/netcoreapp2.0/ITTWEB-Assignment6-FitnessApp.runtimeconfig.dev.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/bin/Debug/netcoreapp2.0/ITTWEB-Assignment6-FitnessApp.runtimeconfig.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/obj/Debug/netcoreapp2.0/ITTWEB-Assignment6-FitnessApp.csproj.FileListAbsolute.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/wwwroot/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/wwwroot/inline.bundle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/wwwroot/inline.bundle.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/wwwroot/main.bundle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/wwwroot/main.bundle.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/wwwroot/polyfills.bundle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/wwwroot/polyfills.bundle.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/wwwroot/styles.bundle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/wwwroot/styles.bundle.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/wwwroot/vendor.bundle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/wwwroot/vendor.bundle.js.map" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/Controllers/HomeController.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/Views/Home/About.cshtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/Views/Home/Contact.cshtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/Views/Home/Index.cshtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/Views/Shared/Error.cshtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/Views/Shared/_Layout.cshtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/Views/Shared/_ValidationScriptsPartial.cshtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/Views/_ViewImports.cshtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/Views/_ViewStart.cshtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/wwwroot/css/site.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/wwwroot/css/site.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/wwwroot/images/banner1.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/wwwroot/images/banner2.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/wwwroot/images/banner3.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/wwwroot/images/banner4.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/wwwroot/js/site.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/wwwroot/js/site.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/wwwroot/lib/bootstrap/.bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/wwwroot/lib/bootstrap/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/wwwroot/lib/bootstrap/dist/css/bootstrap-theme.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/wwwroot/lib/bootstrap/dist/css/bootstrap-theme.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/wwwroot/lib/bootstrap/dist/css/bootstrap-theme.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/wwwroot/lib/bootstrap/dist/css/bootstrap-theme.min.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/wwwroot/lib/bootstrap/dist/css/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/wwwroot/lib/bootstrap/dist/js/bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/wwwroot/lib/bootstrap/dist/js/npm.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/wwwroot/lib/jquery-validation-unobtrusive/.bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/wwwroot/lib/jquery-validation/.bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/wwwroot/lib/jquery-validation/LICENSE.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/wwwroot/lib/jquery-validation/dist/additional-methods.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/wwwroot/lib/jquery-validation/dist/additional-methods.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/wwwroot/lib/jquery-validation/dist/jquery.validate.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/wwwroot/lib/jquery/.bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/wwwroot/lib/jquery/LICENSE.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/wwwroot/lib/jquery/dist/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/wwwroot/lib/jquery/dist/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/wwwroot/lib/jquery/dist/jquery.min.map" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/wwwroot/favicon.ico" afterPath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/wwwroot/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/ApplicationDbContext.cs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/Controllers/ApiController.cs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/Models/Exercise.cs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/Models/User.cs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/Models/Workout.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/bin/Debug/netcoreapp2.0/ITTWEB-Assignment6-FitnessApp.dll" afterPath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/bin/Debug/netcoreapp2.0/ITTWEB-Assignment6-FitnessApp.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/bin/Debug/netcoreapp2.0/ITTWEB-Assignment6-FitnessApp.pdb" afterPath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/bin/Debug/netcoreapp2.0/ITTWEB-Assignment6-FitnessApp.pdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/obj/Debug/netcoreapp2.0/ITTWEB-Assignment6-FitnessApp.csproj.CoreCompileInputs.cache" afterPath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/obj/Debug/netcoreapp2.0/ITTWEB-Assignment6-FitnessApp.csproj.CoreCompileInputs.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/obj/Debug/netcoreapp2.0/ITTWEB-Assignment6-FitnessApp.dll" afterPath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/obj/Debug/netcoreapp2.0/ITTWEB-Assignment6-FitnessApp.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/obj/Debug/netcoreapp2.0/ITTWEB-Assignment6-FitnessApp.pdb" afterPath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/obj/Debug/netcoreapp2.0/ITTWEB-Assignment6-FitnessApp.pdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/obj/ITTWEB-Assignment6-FitnessApp.csproj.nuget.cache" afterPath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/obj/ITTWEB-Assignment6-FitnessApp.csproj.nuget.cache" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.ITTWEB-Assignment6-FitnessApp/.idea/contentModel.xml" afterPath="$PROJECT_DIR$/.idea/.idea.ITTWEB-Assignment6-FitnessApp/.idea/contentModel.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.ITTWEB-Assignment6-FitnessApp/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.ITTWEB-Assignment6-FitnessApp/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/ITTWEB-Assignment6-FitnessApp.csproj" afterPath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/ITTWEB-Assignment6-FitnessApp.csproj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/Startup.cs" afterPath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/Startup.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/bin/Debug/netcoreapp2.0/ITTWEB-Assignment6-FitnessApp.deps.json" afterPath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/bin/Debug/netcoreapp2.0/ITTWEB-Assignment6-FitnessApp.deps.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/bin/Debug/netcoreapp2.0/ITTWEB-Assignment6-FitnessApp.runtimeconfig.dev.json" afterPath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/bin/Debug/netcoreapp2.0/ITTWEB-Assignment6-FitnessApp.runtimeconfig.dev.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/obj/ITTWEB-Assignment6-FitnessApp.csproj.nuget.g.props" afterPath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/obj/ITTWEB-Assignment6-FitnessApp.csproj.nuget.g.props" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/obj/project.assets.json" afterPath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/obj/project.assets.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/obj/project.packagespec.json" afterPath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/obj/project.packagespec.json" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -90,12 +32,66 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ITTWEB-Assignment6-FitnessApp.csproj" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ITTWEB-Assignment6-FitnessApp.csproj" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/ITTWEB-Assignment6-FitnessApp.csproj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="16" selection-end-column="14" />
+            <state relative-caret-position="255">
+              <caret line="17" column="10" lean-forward="false" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Exercise.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/Models/Exercise.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="1" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="1" />
+              <folding>
+                <marker date="1511903738281" expanded="true" signature="46:292" ph="{...}" />
+                <marker date="1511903738281" expanded="true" signature="74:290" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Workout.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/Models/Workout.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding>
+                <marker date="1511903823148" expanded="true" signature="81:304" ph="{...}" />
+                <marker date="1511903823148" expanded="true" signature="108:302" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/Models/User.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="51" lean-forward="false" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
+              <folding>
+                <marker date="1511903823153" expanded="true" signature="81:293" ph="{...}" />
+                <marker date="1511903823153" expanded="true" signature="105:291" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ApiController.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/Controllers/ApiController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="9" lean-forward="false" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+              <folding>
+                <marker date="1511902905074" expanded="true" signature="6:65" ph="..." />
+                <marker date="1511902905074" expanded="true" signature="118:335" ph="{...}" />
+                <marker date="1511902905074" expanded="true" signature="196:333" ph="{...}" />
+                <marker date="1511902905074" expanded="true" signature="262:327" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -116,19 +112,35 @@
       <file leaf-file-name="Startup.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/Startup.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="42" column="24" lean-forward="false" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
+            <state relative-caret-position="-17">
+              <caret line="26" column="155" lean-forward="false" selection-start-line="26" selection-start-column="155" selection-end-line="26" selection-end-column="155" />
               <folding>
-                <marker date="1511902571956" expanded="false" signature="6:275" ph="..." />
-                <marker date="1511902571956" expanded="true" signature="316:1684" ph="{...}" />
-                <marker date="1511902571956" expanded="true" signature="343:1682" ph="{...}" />
-                <marker date="1511902571956" expanded="true" signature="402:465" ph="{...}" />
-                <marker date="1511902571956" expanded="true" signature="688:739" ph="{...}" />
-                <marker date="1511902571956" expanded="true" signature="927:1676" ph="{...}" />
-                <marker date="1511902571956" expanded="true" signature="974:1051" ph="{...}" />
-                <marker date="1511902571956" expanded="true" signature="1068:1152" ph="{...}" />
-                <marker date="1511902571956" expanded="true" signature="1199:1553" ph="{...}" />
-                <marker date="1511902571956" expanded="true" signature="1428:1539" ph="{...}" />
+                <marker date="1511903601370" expanded="true" signature="6:342" ph="..." />
+                <marker date="1511903601370" expanded="true" signature="383:2431" ph="{...}" />
+                <marker date="1511903601370" expanded="true" signature="410:2429" ph="{...}" />
+                <marker date="1511903601370" expanded="true" signature="469:532" ph="{...}" />
+                <marker date="1511903601370" expanded="true" signature="755:1486" ph="{...}" />
+                <marker date="1511903601370" expanded="true" signature="1011:1276" ph="{...}" />
+                <marker date="1511903601370" expanded="true" signature="1674:2423" ph="{...}" />
+                <marker date="1511903601370" expanded="true" signature="1721:1798" ph="{...}" />
+                <marker date="1511903601370" expanded="true" signature="1815:1899" ph="{...}" />
+                <marker date="1511903601370" expanded="true" signature="1946:2300" ph="{...}" />
+                <marker date="1511903601370" expanded="true" signature="2175:2286" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ApplicationDbContext.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/ApplicationDbContext.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="5" lean-forward="false" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+              <folding>
+                <marker date="1511903558740" expanded="true" signature="6:80" ph="..." />
+                <marker date="1511903558740" expanded="true" signature="121:471" ph="{...}" />
+                <marker date="1511903558740" expanded="true" signature="173:469" ph="{...}" />
+                <marker date="1511903558740" expanded="true" signature="443:463" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -140,14 +152,28 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/Controllers/ApiController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/appsettings.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/Models/User.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/ApplicationDbContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/Models/Exercise.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/Models/Workout.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/Startup.cs" />
+        <option value="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/Controllers/ApiController.cs" />
         <option value="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/ITTWEB-Assignment6-FitnessApp.csproj" />
+        <option value="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/Models/workout.cs" />
+        <option value="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/Models/user.cs" />
+        <option value="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/ApplicationDbContext.cs" />
+        <option value="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/Models/exercise.cs" />
+        <option value="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/Startup.cs" />
+        <option value="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/Models/Exercise.cs" />
+        <option value="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/Models/User.cs" />
+        <option value="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/Models/Workout.cs" />
       </list>
     </option>
   </component>
@@ -163,7 +189,9 @@
     <option name="width" value="1400" />
     <option name="height" value="838" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="SolutionExplorer" proportions="" version="1">
       <flattenPackages />
@@ -191,6 +219,18 @@
               <item name="ITTWEB-Assignment6-FitnessApp (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="ITTWEB-Assignment6-FitnessApp" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="ITTWEB-Assignment6-FitnessApp (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="ITTWEB-Assignment6-FitnessApp" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Controllers" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="ITTWEB-Assignment6-FitnessApp (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="ITTWEB-Assignment6-FitnessApp" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Models" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -202,6 +242,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/Languages" value="C#" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -244,12 +285,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1511902026362</updated>
-      <workItem from="1511902029800" duration="678000" />
+      <workItem from="1511902029800" duration="1872000" />
     </task>
+    <task id="LOCAL-00001" summary="Angular client added">
+      <created>1511902822468</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1511902822468</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="678000" />
+    <option name="totallyTimeSpent" value="1872000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -262,14 +311,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="20" y="42" width="1400" height="838" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.57738894" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2533137" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -292,6 +342,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Angular client added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Angular client added" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
@@ -301,6 +355,35 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="22" column="9" lean-forward="false" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/Controllers/ApiController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="9" lean-forward="false" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+          <folding>
+            <marker date="1511902905074" expanded="true" signature="6:65" ph="..." />
+            <marker date="1511902905074" expanded="true" signature="118:335" ph="{...}" />
+            <marker date="1511902905074" expanded="true" signature="196:333" ph="{...}" />
+            <marker date="1511902905074" expanded="true" signature="262:327" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/ITTWEB-Assignment6-FitnessApp.csproj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="10" lean-forward="false" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
           <folding />
         </state>
       </provider>
@@ -316,30 +399,69 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/Startup.cs">
+    <entry file="file://$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/ApplicationDbContext.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="42" column="24" lean-forward="false" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
+        <state relative-caret-position="210">
+          <caret line="14" column="5" lean-forward="false" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
           <folding>
-            <marker date="1511902571956" expanded="false" signature="6:275" ph="..." />
-            <marker date="1511902571956" expanded="true" signature="316:1684" ph="{...}" />
-            <marker date="1511902571956" expanded="true" signature="343:1682" ph="{...}" />
-            <marker date="1511902571956" expanded="true" signature="402:465" ph="{...}" />
-            <marker date="1511902571956" expanded="true" signature="688:739" ph="{...}" />
-            <marker date="1511902571956" expanded="true" signature="927:1676" ph="{...}" />
-            <marker date="1511902571956" expanded="true" signature="974:1051" ph="{...}" />
-            <marker date="1511902571956" expanded="true" signature="1068:1152" ph="{...}" />
-            <marker date="1511902571956" expanded="true" signature="1199:1553" ph="{...}" />
-            <marker date="1511902571956" expanded="true" signature="1428:1539" ph="{...}" />
+            <marker date="1511903558740" expanded="true" signature="6:80" ph="..." />
+            <marker date="1511903558740" expanded="true" signature="121:471" ph="{...}" />
+            <marker date="1511903558740" expanded="true" signature="173:469" ph="{...}" />
+            <marker date="1511903558740" expanded="true" signature="443:463" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/ITTWEB-Assignment6-FitnessApp.csproj">
+    <entry file="file://$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/Startup.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="16" selection-end-column="14" />
-          <folding />
+        <state relative-caret-position="-17">
+          <caret line="26" column="155" lean-forward="false" selection-start-line="26" selection-start-column="155" selection-end-line="26" selection-end-column="155" />
+          <folding>
+            <marker date="1511903601370" expanded="true" signature="6:342" ph="..." />
+            <marker date="1511903601370" expanded="true" signature="383:2431" ph="{...}" />
+            <marker date="1511903601370" expanded="true" signature="410:2429" ph="{...}" />
+            <marker date="1511903601370" expanded="true" signature="469:532" ph="{...}" />
+            <marker date="1511903601370" expanded="true" signature="755:1486" ph="{...}" />
+            <marker date="1511903601370" expanded="true" signature="1011:1276" ph="{...}" />
+            <marker date="1511903601370" expanded="true" signature="1674:2423" ph="{...}" />
+            <marker date="1511903601370" expanded="true" signature="1721:1798" ph="{...}" />
+            <marker date="1511903601370" expanded="true" signature="1815:1899" ph="{...}" />
+            <marker date="1511903601370" expanded="true" signature="1946:2300" ph="{...}" />
+            <marker date="1511903601370" expanded="true" signature="2175:2286" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/Models/Workout.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <marker date="1511903823148" expanded="true" signature="81:304" ph="{...}" />
+            <marker date="1511903823148" expanded="true" signature="108:302" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/Models/User.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="51" lean-forward="false" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
+          <folding>
+            <marker date="1511903823153" expanded="true" signature="81:293" ph="{...}" />
+            <marker date="1511903823153" expanded="true" signature="105:291" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/Models/Exercise.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="1" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="1" />
+          <folding>
+            <marker date="1511903738281" expanded="true" signature="46:292" ph="{...}" />
+            <marker date="1511903738281" expanded="true" signature="74:290" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
