@@ -10,7 +10,9 @@
         <e p="bin" t="ExcludeRecursive" />
         <e p="bundleconfig.json" t="Include" />
         <e p="Controllers" t="Include">
-          <e p="ApiController.cs" t="Include" />
+          <e p="ExercisesController.cs" t="Include" />
+          <e p="UsersController.cs" t="Include" />
+          <e p="WorkoutsController.cs" t="Include" />
         </e>
         <e p="ITTWEB-Assignment6-FitnessApp.csproj" t="IncludeRecursive" />
         <e p="Migrations" t="Include">
