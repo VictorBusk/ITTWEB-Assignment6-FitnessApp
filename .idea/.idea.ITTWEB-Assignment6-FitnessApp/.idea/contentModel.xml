@@ -8,9 +8,7 @@
         <e p="appsettings.json" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="bundleconfig.json" t="Include" />
-        <e p="Controllers" t="Include">
-          <e p="HomeController.cs" t="Include" />
-        </e>
+        <e p="Controllers" t="Include" />
         <e p="ITTWEB-Assignment6-FitnessApp.csproj" t="IncludeRecursive" />
         <e p="Models" t="Include">
           <e p="ErrorViewModel.cs" t="Include" />
@@ -24,90 +22,23 @@
         </e>
         <e p="Program.cs" t="Include" />
         <e p="Startup.cs" t="Include" />
-        <e p="Views" t="Include">
-          <e p="_ViewImports.cshtml" t="Include" />
-          <e p="_ViewStart.cshtml" t="Include" />
-          <e p="Home" t="Include">
-            <e p="About.cshtml" t="Include" />
-            <e p="Contact.cshtml" t="Include" />
-            <e p="Index.cshtml" t="Include" />
-          </e>
-          <e p="Shared" t="Include">
-            <e p="_Layout.cshtml" t="Include" />
-            <e p="_ValidationScriptsPartial.cshtml" t="Include" />
-            <e p="Error.cshtml" t="Include" />
-          </e>
-        </e>
         <e p="wwwroot" t="Include">
-          <e p="css" t="Include">
-            <e p="site.css" t="Include" />
-            <e p="site.min.css" t="Include" />
-          </e>
           <e p="favicon.ico" t="Include" />
-          <e p="images" t="Include">
-            <e p="banner1.svg" t="Include" />
-            <e p="banner2.svg" t="Include" />
-            <e p="banner3.svg" t="Include" />
-            <e p="banner4.svg" t="Include" />
-          </e>
-          <e p="js" t="Include">
-            <e p="site.js" t="Include" />
-            <e p="site.min.js" t="Include" />
-          </e>
-          <e p="lib" t="Include">
-            <e p="bootstrap" t="Include">
-              <e p=".bower.json" t="Include" />
-              <e p="dist" t="Include">
-                <e p="css" t="Include">
-                  <e p="bootstrap-theme.css" t="Include" />
-                  <e p="bootstrap-theme.css.map" t="Include" />
-                  <e p="bootstrap-theme.min.css" t="Include" />
-                  <e p="bootstrap-theme.min.css.map" t="Include" />
-                  <e p="bootstrap.css" t="Include" />
-                  <e p="bootstrap.css.map" t="Include" />
-                  <e p="bootstrap.min.css" t="Include" />
-                  <e p="bootstrap.min.css.map" t="Include" />
-                </e>
-                <e p="fonts" t="Include">
-                  <e p="glyphicons-halflings-regular.eot" t="Include" />
-                  <e p="glyphicons-halflings-regular.svg" t="Include" />
-                  <e p="glyphicons-halflings-regular.ttf" t="Include" />
-                  <e p="glyphicons-halflings-regular.woff" t="Include" />
-                  <e p="glyphicons-halflings-regular.woff2" t="Include" />
-                </e>
-                <e p="js" t="Include">
-                  <e p="bootstrap.js" t="Include" />
-                  <e p="bootstrap.min.js" t="Include" />
-                  <e p="npm.js" t="Include" />
-                </e>
-              </e>
-              <e p="LICENSE" t="Include" />
-            </e>
-            <e p="jquery" t="Include">
-              <e p=".bower.json" t="Include" />
-              <e p="dist" t="Include">
-                <e p="jquery.js" t="Include" />
-                <e p="jquery.min.js" t="Include" />
-                <e p="jquery.min.map" t="Include" />
-              </e>
-              <e p="LICENSE.txt" t="Include" />
-            </e>
-            <e p="jquery-validation" t="Include">
-              <e p=".bower.json" t="Include" />
-              <e p="dist" t="Include">
-                <e p="additional-methods.js" t="Include" />
-                <e p="additional-methods.min.js" t="Include" />
-                <e p="jquery.validate.js" t="Include" />
-                <e p="jquery.validate.min.js" t="Include" />
-              </e>
-              <e p="LICENSE.md" t="Include" />
-            </e>
-            <e p="jquery-validation-unobtrusive" t="Include">
-              <e p=".bower.json" t="Include" />
-              <e p="jquery.validate.unobtrusive.js" t="Include" />
-              <e p="jquery.validate.unobtrusive.min.js" t="Include" />
-            </e>
-          </e>
+          <e p="index.html" t="Include" />
+          <e p="inline.bundle.js" t="Include" />
+          <e p="inline.bundle.js.map" t="Include" />
+          <e p="main.bundle.js" t="Include" />
+          <e p="main.bundle.js.map" t="Include" />
+          <e p="MaterialIcons-Regular.012cf6a10129e2275d79.woff" t="Include" />
+          <e p="MaterialIcons-Regular.570eb83859dc23dd0eec.woff2" t="Include" />
+          <e p="MaterialIcons-Regular.a37b0c01c0baf1888ca8.ttf" t="Include" />
+          <e p="MaterialIcons-Regular.e79bfd88537def476913.eot" t="Include" />
+          <e p="polyfills.bundle.js" t="Include" />
+          <e p="polyfills.bundle.js.map" t="Include" />
+          <e p="styles.bundle.js" t="Include" />
+          <e p="styles.bundle.js.map" t="Include" />
+          <e p="vendor.bundle.js" t="Include" />
+          <e p="vendor.bundle.js.map" t="Include" />
         </e>
       </e>
       <e p="ITTWEB-Assignment6-FitnessApp.sln" t="IncludeFlat" />
