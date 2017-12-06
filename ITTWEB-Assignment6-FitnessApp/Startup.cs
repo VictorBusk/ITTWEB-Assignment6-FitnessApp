@@ -59,6 +59,7 @@ namespace ITTWEB_Assignment6_FitnessApp
                 options.Password.RequireUppercase = false;
             });
 
+            services.AddCors();
             services.AddAuthentication("JWT")
                 .AddJwtBearer(options =>
                 {
@@ -90,6 +91,15 @@ namespace ITTWEB_Assignment6_FitnessApp
             {
                 app.UseExceptionHandler("/Home/Error");
             }
+
+            app.UseAuthentication();
+            app.UseCors(builder =>
+            {
+                builder.WithOrigins("https://ittweb6.herokuapp.com")
+                    .AllowAnyHeader()
+                    .AllowAnyMethod()
+                    .AllowCredentials();
+            });
 
             app.Use(async (context, next) => {
                 await next();
