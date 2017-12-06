@@ -41,20 +41,15 @@
         <e p="wwwroot" t="Include">
           <e p="favicon.ico" t="Include" />
           <e p="index.html" t="Include" />
-          <e p="inline.bundle.js" t="Include" />
-          <e p="inline.bundle.js.map" t="Include" />
-          <e p="main.bundle.js" t="Include" />
-          <e p="main.bundle.js.map" t="Include" />
+          <e p="inline.b5c1d9ce588868188358.bundle.js" t="Include" />
+          <e p="main.3c91a651f220c7682173.bundle.js" t="Include" />
           <e p="MaterialIcons-Regular.012cf6a10129e2275d79.woff" t="Include" />
           <e p="MaterialIcons-Regular.570eb83859dc23dd0eec.woff2" t="Include" />
           <e p="MaterialIcons-Regular.a37b0c01c0baf1888ca8.ttf" t="Include" />
           <e p="MaterialIcons-Regular.e79bfd88537def476913.eot" t="Include" />
-          <e p="polyfills.bundle.js" t="Include" />
-          <e p="polyfills.bundle.js.map" t="Include" />
-          <e p="styles.bundle.js" t="Include" />
-          <e p="styles.bundle.js.map" t="Include" />
-          <e p="vendor.bundle.js" t="Include" />
-          <e p="vendor.bundle.js.map" t="Include" />
+          <e p="polyfills.be6ab34a4cda9d7dbb1c.bundle.js" t="Include" />
+          <e p="styles.1343fee2c75b25a8dc01.bundle.css" t="Include" />
+          <e p="vendor.163211d134ed85633685.bundle.js" t="Include" />
         </e>
       </e>
       <e p="ITTWEB-Assignment6-FitnessApp.sln" t="IncludeFlat" />
