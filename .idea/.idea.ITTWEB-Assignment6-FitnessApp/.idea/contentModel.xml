@@ -4,7 +4,6 @@
     <e p="$USER_HOME$/Library/Caches/Rider2017.2/resharper-host/local/Transient/ReSharperHost/v10/SolutionCaches/_ITTWEB-Assignment6-FitnessApp.-427599765.00" t="ExcludeRecursive" />
     <e p="$PROJECT_DIR$" t="IncludeFlat">
       <e p="ITTWEB-Assignment6-FitnessApp" t="IncludeRecursive">
-        <e p="ApplicationDbContext.cs" t="Include" />
         <e p="appsettings.Development.json" t="Include" />
         <e p="appsettings.json" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
@@ -14,6 +13,9 @@
           <e p="UsersController.cs" t="Include" />
           <e p="WorkoutsController.cs" t="Include" />
         </e>
+        <e p="DAL" t="Include">
+          <e p="ApplicationDbContext.cs" t="Include" />
+        </e>
         <e p="ITTWEB-Assignment6-FitnessApp.csproj" t="IncludeRecursive" />
         <e p="Migrations" t="Include">
           <e p="20171128211742_init.cs" t="Include" />
@@ -21,6 +23,7 @@
           <e p="ApplicationDbContextModelSnapshot.cs" t="Include" />
         </e>
         <e p="Models" t="Include">
+          <e p="DtoUser.cs" t="Include" />
           <e p="ErrorViewModel.cs" t="Include" />
           <e p="exercise.cs" t="Include" />
           <e p="user.cs" t="Include" />
