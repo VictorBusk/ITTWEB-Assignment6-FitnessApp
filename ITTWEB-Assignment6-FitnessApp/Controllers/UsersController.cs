@@ -55,7 +55,7 @@ namespace ITTWEB_Assignment6_FitnessApp.Controllers
             var userCreationResult = await _userManager.CreateAsync(newUser, dtoUser.Password);
             if (userCreationResult.Succeeded)
             {
-                return Ok(newUser);
+                return Ok(new { token = "JWT " + GenerateToken(newUser.Email)});
             }
             foreach (var error in userCreationResult.Errors)
                 ModelState.AddModelError(string.Empty, error.Description);
@@ -97,7 +97,7 @@ namespace ITTWEB_Assignment6_FitnessApp.Controllers
 
             var token = new JwtSecurityToken(
                 new JwtHeader(new SigningCredentials(
-                    new SymmetricSecurityKey(Encoding.UTF8.GetBytes("the secret that needs to be at least 16 characeters long for HmacSha256")),
+                    new SymmetricSecurityKey(Encoding.UTF8.GetBytes("70061ee6-92a1-4bd2-8ba3-2b38d7050f14")),
                     SecurityAlgorithms.HmacSha256)),
                 new JwtPayload(claims));
 
