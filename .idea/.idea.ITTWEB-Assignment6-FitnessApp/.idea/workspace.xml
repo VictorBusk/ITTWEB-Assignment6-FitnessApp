@@ -2,14 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f87b17b-3444-46c3-8648-d2c695152ca6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/Models/DtoUser.cs" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/ApplicationDbContext.cs" afterPath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/DAL/ApplicationDbContext.cs" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/Migrations/20171128211742_init.Designer.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/Migrations/20171128211742_init.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/Migrations/ApplicationDbContextModelSnapshot.cs" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/bin/Debug/netcoreapp2.0/ITTWEB-Assignment6-FitnessApp.dll" afterPath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/bin/Debug/netcoreapp2.0/ITTWEB-Assignment6-FitnessApp.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/bin/Debug/netcoreapp2.0/ITTWEB-Assignment6-FitnessApp.pdb" afterPath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/bin/Debug/netcoreapp2.0/ITTWEB-Assignment6-FitnessApp.pdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/obj/Debug/netcoreapp2.0/ITTWEB-Assignment6-FitnessApp.csproj.CoreCompileInputs.cache" afterPath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/obj/Debug/netcoreapp2.0/ITTWEB-Assignment6-FitnessApp.csproj.CoreCompileInputs.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/obj/Debug/netcoreapp2.0/ITTWEB-Assignment6-FitnessApp.dll" afterPath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/obj/Debug/netcoreapp2.0/ITTWEB-Assignment6-FitnessApp.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/obj/Debug/netcoreapp2.0/ITTWEB-Assignment6-FitnessApp.pdb" afterPath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/obj/Debug/netcoreapp2.0/ITTWEB-Assignment6-FitnessApp.pdb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/obj/ITTWEB-Assignment6-FitnessApp.csproj.nuget.cache" afterPath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/obj/ITTWEB-Assignment6-FitnessApp.csproj.nuget.cache" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.ITTWEB-Assignment6-FitnessApp/.idea/contentModel.xml" afterPath="$PROJECT_DIR$/.idea/.idea.ITTWEB-Assignment6-FitnessApp/.idea/contentModel.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.ITTWEB-Assignment6-FitnessApp/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.ITTWEB-Assignment6-FitnessApp/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/Controllers/UsersController.cs" afterPath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/Controllers/UsersController.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/Models/User.cs" afterPath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/Models/User.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/Startup.cs" afterPath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/Startup.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/obj/Debug/netcoreapp2.0/ITTWEB-Assignment6-FitnessApp.csproj.FileListAbsolute.txt" afterPath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/obj/Debug/netcoreapp2.0/ITTWEB-Assignment6-FitnessApp.csproj.FileListAbsolute.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/obj/ITTWEB-Assignment6-FitnessApp.csproj.nuget.g.props" afterPath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/obj/ITTWEB-Assignment6-FitnessApp.csproj.nuget.g.props" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/obj/project.assets.json" afterPath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/obj/project.assets.json" />
     </list>
@@ -48,25 +53,24 @@
       <file leaf-file-name="UsersController.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/Controllers/UsersController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="716">
-              <caret line="77" column="41" lean-forward="false" selection-start-line="77" selection-start-column="41" selection-end-line="77" selection-end-column="41" />
+            <state relative-caret-position="391">
+              <caret line="43" column="18" lean-forward="false" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
               <folding>
-                <marker date="1512417295323" expanded="false" signature="6:316" ph="..." />
-                <marker date="1512417295323" expanded="true" signature="369:4005" ph="{...}" />
-                <marker date="1512417295323" expanded="true" signature="449:4003" ph="{...}" />
-                <marker date="1512417295323" expanded="true" signature="757:893" ph="{...}" />
-                <marker date="1512417295323" expanded="true" signature="962:1027" ph="{...}" />
-                <marker date="1512417295323" expanded="true" signature="1098:1163" ph="{...}" />
-                <marker date="1512417295323" expanded="true" signature="1232:1297" ph="{...}" />
-                <marker date="1512417295323" expanded="true" signature="1380:1445" ph="{...}" />
-                <marker date="1512417295323" expanded="true" signature="1701:2290" ph="{...}" />
-                <marker date="1512417295323" expanded="true" signature="1761:1893" ph="{...}" />
-                <marker date="1512417295323" expanded="true" signature="2037:2101" ph="{...}" />
-                <marker date="1512417295323" expanded="true" signature="2378:2472" ph="{...}" />
-                <marker date="1512417295323" expanded="true" signature="2583:3140" ph="{...}" />
-                <marker date="1512417295323" expanded="true" signature="2698:2846" ph="{...}" />
-                <marker date="1512417295323" expanded="true" signature="3195:3997" ph="{...}" />
-                <marker date="1512417295323" expanded="true" signature="3255:3577" ph="{...}" />
+                <marker date="1512572633947" expanded="false" signature="6:316" ph="..." />
+                <marker date="1512572633947" expanded="true" signature="369:3853" ph="{...}" />
+                <marker date="1512572633947" expanded="true" signature="449:3851" ph="{...}" />
+                <marker date="1512572633947" expanded="true" signature="757:893" ph="{...}" />
+                <marker date="1512572633947" expanded="true" signature="962:1027" ph="{...}" />
+                <marker date="1512572633947" expanded="true" signature="1096:1161" ph="{...}" />
+                <marker date="1512572633947" expanded="true" signature="1244:1309" ph="{...}" />
+                <marker date="1512572633947" expanded="true" signature="1549:2138" ph="{...}" />
+                <marker date="1512572633947" expanded="true" signature="1609:1741" ph="{...}" />
+                <marker date="1512572633947" expanded="true" signature="1885:1949" ph="{...}" />
+                <marker date="1512572633947" expanded="true" signature="2226:2320" ph="{...}" />
+                <marker date="1512572633947" expanded="true" signature="2431:2988" ph="{...}" />
+                <marker date="1512572633947" expanded="true" signature="2546:2694" ph="{...}" />
+                <marker date="1512572633947" expanded="true" signature="3043:3845" ph="{...}" />
+                <marker date="1512572633947" expanded="true" signature="3103:3425" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -119,9 +123,14 @@
       <file leaf-file-name="ApplicationDbContext.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/DAL/ApplicationDbContext.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
+            <state relative-caret-position="210">
               <caret line="16" column="1" lean-forward="false" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-              <folding />
+              <folding>
+                <marker date="1512570455660" expanded="false" signature="6:137" ph="..." />
+                <marker date="1512570455660" expanded="true" signature="178:536" ph="{...}" />
+                <marker date="1512570455660" expanded="true" signature="238:534" ph="{...}" />
+                <marker date="1512570455660" expanded="true" signature="508:528" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -184,8 +193,8 @@
         <option value="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/ApplicationDbContext.cs" />
         <option value="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/Models/User.cs" />
         <option value="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/Models/DtoUser.cs" />
-        <option value="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/Controllers/UsersController.cs" />
         <option value="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/Startup.cs" />
+        <option value="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/Controllers/UsersController.cs" />
       </list>
     </option>
   </component>
@@ -299,7 +308,7 @@
       <updated>1511902026362</updated>
       <workItem from="1511902029800" duration="3550000" />
       <workItem from="1512415297386" duration="1963000" />
-      <workItem from="1512570430778" duration="523000" />
+      <workItem from="1512570430778" duration="1676000" />
     </task>
     <task id="LOCAL-00001" summary="Angular client added">
       <created>1511902822468</created>
@@ -322,11 +331,18 @@
       <option name="project" value="LOCAL" />
       <updated>1511905561043</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="ASP Identity added">
+      <created>1512571312678</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1512571312678</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6036000" />
+    <option name="totallyTimeSpent" value="7189000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -347,7 +363,7 @@
       <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.57738894" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.57678354" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19098713" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -374,7 +390,8 @@
     <MESSAGE value="Angular client added" />
     <MESSAGE value="EF + MySql added" />
     <MESSAGE value="Exercise controller updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exercise controller updated" />
+    <MESSAGE value="ASP Identity added" />
+    <option name="LAST_COMMIT_MESSAGE" value="ASP Identity added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -407,22 +424,21 @@
         <state relative-caret-position="1155">
           <caret line="77" column="41" lean-forward="false" selection-start-line="77" selection-start-column="41" selection-end-line="77" selection-end-column="41" />
           <folding>
-            <marker date="1512417295323" expanded="false" signature="6:316" ph="..." />
-            <marker date="1512417295323" expanded="true" signature="369:4005" ph="{...}" />
-            <marker date="1512417295323" expanded="true" signature="449:4003" ph="{...}" />
-            <marker date="1512417295323" expanded="true" signature="757:893" ph="{...}" />
-            <marker date="1512417295323" expanded="true" signature="962:1027" ph="{...}" />
-            <marker date="1512417295323" expanded="true" signature="1098:1163" ph="{...}" />
-            <marker date="1512417295323" expanded="true" signature="1232:1297" ph="{...}" />
-            <marker date="1512417295323" expanded="true" signature="1380:1445" ph="{...}" />
-            <marker date="1512417295323" expanded="true" signature="1701:2290" ph="{...}" />
-            <marker date="1512417295323" expanded="true" signature="1761:1893" ph="{...}" />
-            <marker date="1512417295323" expanded="true" signature="2037:2101" ph="{...}" />
-            <marker date="1512417295323" expanded="true" signature="2378:2472" ph="{...}" />
-            <marker date="1512417295323" expanded="true" signature="2583:3140" ph="{...}" />
-            <marker date="1512417295323" expanded="true" signature="2698:2846" ph="{...}" />
-            <marker date="1512417295323" expanded="true" signature="3195:3997" ph="{...}" />
-            <marker date="1512417295323" expanded="true" signature="3255:3577" ph="{...}" />
+            <marker date="1512572633947" expanded="false" signature="6:316" ph="..." />
+            <marker date="1512572633947" expanded="true" signature="369:3853" ph="{...}" />
+            <marker date="1512572633947" expanded="true" signature="449:3851" ph="{...}" />
+            <marker date="1512572633947" expanded="true" signature="757:893" ph="{...}" />
+            <marker date="1512572633947" expanded="true" signature="962:1027" ph="{...}" />
+            <marker date="1512572633947" expanded="true" signature="1096:1161" ph="{...}" />
+            <marker date="1512572633947" expanded="true" signature="1244:1309" ph="{...}" />
+            <marker date="1512572633947" expanded="true" signature="1549:2138" ph="{...}" />
+            <marker date="1512572633947" expanded="true" signature="1609:1741" ph="{...}" />
+            <marker date="1512572633947" expanded="true" signature="1885:1949" ph="{...}" />
+            <marker date="1512572633947" expanded="true" signature="2226:2320" ph="{...}" />
+            <marker date="1512572633947" expanded="true" signature="2431:2988" ph="{...}" />
+            <marker date="1512572633947" expanded="true" signature="2546:2694" ph="{...}" />
+            <marker date="1512572633947" expanded="true" signature="3043:3845" ph="{...}" />
+            <marker date="1512572633947" expanded="true" signature="3103:3425" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -447,7 +463,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="1" lean-forward="false" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-          <folding />
+          <folding>
+            <marker date="1512570455660" expanded="false" signature="6:137" ph="..." />
+            <marker date="1512570455660" expanded="true" signature="178:536" ph="{...}" />
+            <marker date="1512570455660" expanded="true" signature="238:534" ph="{...}" />
+            <marker date="1512570455660" expanded="true" signature="508:528" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -524,22 +545,21 @@
         <state relative-caret-position="450">
           <caret line="30" column="26" lean-forward="false" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
           <folding>
-            <marker date="1512417295323" expanded="false" signature="6:316" ph="..." />
-            <marker date="1512417295323" expanded="true" signature="369:4005" ph="{...}" />
-            <marker date="1512417295323" expanded="true" signature="449:4003" ph="{...}" />
-            <marker date="1512417295323" expanded="true" signature="757:893" ph="{...}" />
-            <marker date="1512417295323" expanded="true" signature="962:1027" ph="{...}" />
-            <marker date="1512417295323" expanded="true" signature="1098:1163" ph="{...}" />
-            <marker date="1512417295323" expanded="true" signature="1232:1297" ph="{...}" />
-            <marker date="1512417295323" expanded="true" signature="1380:1445" ph="{...}" />
-            <marker date="1512417295323" expanded="true" signature="1701:2290" ph="{...}" />
-            <marker date="1512417295323" expanded="true" signature="1761:1893" ph="{...}" />
-            <marker date="1512417295323" expanded="true" signature="2037:2101" ph="{...}" />
-            <marker date="1512417295323" expanded="true" signature="2378:2472" ph="{...}" />
-            <marker date="1512417295323" expanded="true" signature="2583:3140" ph="{...}" />
-            <marker date="1512417295323" expanded="true" signature="2698:2846" ph="{...}" />
-            <marker date="1512417295323" expanded="true" signature="3195:3997" ph="{...}" />
-            <marker date="1512417295323" expanded="true" signature="3255:3577" ph="{...}" />
+            <marker date="1512572633947" expanded="false" signature="6:316" ph="..." />
+            <marker date="1512572633947" expanded="true" signature="369:3853" ph="{...}" />
+            <marker date="1512572633947" expanded="true" signature="449:3851" ph="{...}" />
+            <marker date="1512572633947" expanded="true" signature="757:893" ph="{...}" />
+            <marker date="1512572633947" expanded="true" signature="962:1027" ph="{...}" />
+            <marker date="1512572633947" expanded="true" signature="1096:1161" ph="{...}" />
+            <marker date="1512572633947" expanded="true" signature="1244:1309" ph="{...}" />
+            <marker date="1512572633947" expanded="true" signature="1549:2138" ph="{...}" />
+            <marker date="1512572633947" expanded="true" signature="1609:1741" ph="{...}" />
+            <marker date="1512572633947" expanded="true" signature="1885:1949" ph="{...}" />
+            <marker date="1512572633947" expanded="true" signature="2226:2320" ph="{...}" />
+            <marker date="1512572633947" expanded="true" signature="2431:2988" ph="{...}" />
+            <marker date="1512572633947" expanded="true" signature="2546:2694" ph="{...}" />
+            <marker date="1512572633947" expanded="true" signature="3043:3845" ph="{...}" />
+            <marker date="1512572633947" expanded="true" signature="3103:3425" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -597,7 +617,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="5" lean-forward="false" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-          <folding />
+          <folding>
+            <marker date="1512570455660" expanded="false" signature="6:137" ph="..." />
+            <marker date="1512570455660" expanded="true" signature="178:536" ph="{...}" />
+            <marker date="1512570455660" expanded="true" signature="238:534" ph="{...}" />
+            <marker date="1512570455660" expanded="true" signature="508:528" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -696,14 +721,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/DAL/ApplicationDbContext.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="1" lean-forward="false" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/Models/User.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -749,27 +766,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/DAL/ApplicationDbContext.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="16" column="1" lean-forward="false" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <folding>
+            <marker date="1512570455660" expanded="false" signature="6:137" ph="..." />
+            <marker date="1512570455660" expanded="true" signature="178:536" ph="{...}" />
+            <marker date="1512570455660" expanded="true" signature="238:534" ph="{...}" />
+            <marker date="1512570455660" expanded="true" signature="508:528" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/Controllers/UsersController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="716">
-          <caret line="77" column="41" lean-forward="false" selection-start-line="77" selection-start-column="41" selection-end-line="77" selection-end-column="41" />
+        <state relative-caret-position="391">
+          <caret line="43" column="18" lean-forward="false" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
           <folding>
-            <marker date="1512417295323" expanded="false" signature="6:316" ph="..." />
-            <marker date="1512417295323" expanded="true" signature="369:4005" ph="{...}" />
-            <marker date="1512417295323" expanded="true" signature="449:4003" ph="{...}" />
-            <marker date="1512417295323" expanded="true" signature="757:893" ph="{...}" />
-            <marker date="1512417295323" expanded="true" signature="962:1027" ph="{...}" />
-            <marker date="1512417295323" expanded="true" signature="1098:1163" ph="{...}" />
-            <marker date="1512417295323" expanded="true" signature="1232:1297" ph="{...}" />
-            <marker date="1512417295323" expanded="true" signature="1380:1445" ph="{...}" />
-            <marker date="1512417295323" expanded="true" signature="1701:2290" ph="{...}" />
-            <marker date="1512417295323" expanded="true" signature="1761:1893" ph="{...}" />
-            <marker date="1512417295323" expanded="true" signature="2037:2101" ph="{...}" />
-            <marker date="1512417295323" expanded="true" signature="2378:2472" ph="{...}" />
-            <marker date="1512417295323" expanded="true" signature="2583:3140" ph="{...}" />
-            <marker date="1512417295323" expanded="true" signature="2698:2846" ph="{...}" />
-            <marker date="1512417295323" expanded="true" signature="3195:3997" ph="{...}" />
-            <marker date="1512417295323" expanded="true" signature="3255:3577" ph="{...}" />
+            <marker date="1512572633947" expanded="false" signature="6:316" ph="..." />
+            <marker date="1512572633947" expanded="true" signature="369:3853" ph="{...}" />
+            <marker date="1512572633947" expanded="true" signature="449:3851" ph="{...}" />
+            <marker date="1512572633947" expanded="true" signature="757:893" ph="{...}" />
+            <marker date="1512572633947" expanded="true" signature="962:1027" ph="{...}" />
+            <marker date="1512572633947" expanded="true" signature="1096:1161" ph="{...}" />
+            <marker date="1512572633947" expanded="true" signature="1244:1309" ph="{...}" />
+            <marker date="1512572633947" expanded="true" signature="1549:2138" ph="{...}" />
+            <marker date="1512572633947" expanded="true" signature="1609:1741" ph="{...}" />
+            <marker date="1512572633947" expanded="true" signature="1885:1949" ph="{...}" />
+            <marker date="1512572633947" expanded="true" signature="2226:2320" ph="{...}" />
+            <marker date="1512572633947" expanded="true" signature="2431:2988" ph="{...}" />
+            <marker date="1512572633947" expanded="true" signature="2546:2694" ph="{...}" />
+            <marker date="1512572633947" expanded="true" signature="3043:3845" ph="{...}" />
+            <marker date="1512572633947" expanded="true" signature="3103:3425" ph="{...}" />
           </folding>
         </state>
       </provider>

@@ -18,8 +18,8 @@
         </e>
         <e p="ITTWEB-Assignment6-FitnessApp.csproj" t="IncludeRecursive" />
         <e p="Migrations" t="Include">
-          <e p="20171128211742_init.cs" t="Include" />
-          <e p="20171128211742_init.Designer.cs" t="Include" />
+          <e p="20171206145835_init.cs" t="Include" />
+          <e p="20171206145835_init.Designer.cs" t="Include" />
           <e p="ApplicationDbContextModelSnapshot.cs" t="Include" />
         </e>
         <e p="Models" t="Include">

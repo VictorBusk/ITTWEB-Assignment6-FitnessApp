@@ -30,11 +30,6 @@ namespace ITTWEB_Assignment6_FitnessApp.Controllers
             return new string[] { "Hello", "World" };
         }
         
-        [HttpPost]
-        public IEnumerable<string> Post() {
-            return new string[] { "Hello", "World" };
-        }
-        
         [HttpPut]
         public IEnumerable<string> Put() {
             return new string[] { "Hello", "World" };
@@ -46,9 +41,9 @@ namespace ITTWEB_Assignment6_FitnessApp.Controllers
         }
         
         
-        [HttpPost("Register")]
+        [HttpPost]
         //public async Task<IActionResult> Register([FromBody] string email, [FromBody] string password, [FromBody] string name)
-        public async Task<IActionResult> Register([FromBody] DtoUser dtoUser)
+        public async Task<IActionResult> Post([FromBody] DtoUser dtoUser)
         {
             var newUser = new User()
             {
