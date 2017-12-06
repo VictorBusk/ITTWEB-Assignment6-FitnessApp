@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Buffers;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -8,11 +9,13 @@ using ITTWEB_Assignment6_FitnessApp.Models;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc.Formatters;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.IdentityModel.Tokens;
 using MySql.Data.MySqlClient;
+using Newtonsoft.Json;
 
 namespace ITTWEB_Assignment6_FitnessApp
 {
@@ -56,9 +59,9 @@ namespace ITTWEB_Assignment6_FitnessApp
 
             services.AddAuthentication(options =>
             {
-                options.DefaultAuthenticateScheme = "Jwt";
-                options.DefaultChallengeScheme = "Jwt";
-            }).AddJwtBearer("Jwt", options =>
+                options.DefaultAuthenticateScheme = "JWT";
+                options.DefaultChallengeScheme = "JWT";
+            }).AddJwtBearer("JWT", options =>
             {
                 options.TokenValidationParameters = new TokenValidationParameters
                 {
