@@ -60,8 +60,12 @@ namespace ITTWEB_Assignment6_FitnessApp
             });
 
             services.AddCors();
-            services.AddAuthentication("JWT")
-                .AddJwtBearer(options =>
+            services.AddAuthentication(options =>
+                {
+                    options.DefaultAuthenticateScheme = "JWT";
+                    options.DefaultChallengeScheme = "JWT";
+                })
+                .AddJwtBearer("JWT", options =>
                 {
                     options.RequireHttpsMetadata = false;
                     options.SaveToken = true;

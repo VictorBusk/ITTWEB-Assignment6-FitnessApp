@@ -12,7 +12,9 @@ using Microsoft.IdentityModel.Tokens;
 
 namespace ITTWEB_Assignment6_FitnessApp.Controllers
 {
+    [Produces("application/json")]
     [Route("api")]
+    [Authorize]
     public class UsersController : Controller
     {
         private readonly ApplicationDbContext _context;
@@ -32,13 +34,11 @@ namespace ITTWEB_Assignment6_FitnessApp.Controllers
             return new string[] { "Hello", "World" };
         }
         
-        [Authorize(ActiveAuthenticationSchemes = "JWT")]
         [HttpGet("test")]
         public IEnumerable<string> Test() {
             return new string[] { "Hello", "World" };
         }
         
-        [Authorize]
         [HttpGet("users")]
         public IEnumerable<string> Get() {
             return new string[] { "Hello", "World" };
