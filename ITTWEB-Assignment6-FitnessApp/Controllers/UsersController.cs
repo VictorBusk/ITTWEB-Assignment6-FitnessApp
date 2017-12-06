@@ -5,6 +5,7 @@ using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
 using ITTWEB_Assignment6_FitnessApp.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
@@ -23,6 +24,12 @@ namespace ITTWEB_Assignment6_FitnessApp.Controllers
             _context = context;
             _userManager = userManager;
             _signInManager = signInManager;
+        }
+        
+        [Authorize]
+        [HttpGet("test")]
+        public IEnumerable<string> Test() {
+            return new string[] { "Hello", "World" };
         }
         
         [HttpGet("users")]
@@ -95,11 +102,15 @@ namespace ITTWEB_Assignment6_FitnessApp.Controllers
                 new Claim(JwtRegisteredClaimNames.Exp, new DateTimeOffset(DateTime.Now.AddDays(1)).ToUnixTimeSeconds().ToString()),
             };
 
+            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("70061ee6-92a1-4bd2-8ba3-2b38d7050f14"));
+            var cred = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
+
             var token = new JwtSecurityToken(
-                new JwtHeader(new SigningCredentials(
-                    new SymmetricSecurityKey(Encoding.UTF8.GetBytes("70061ee6-92a1-4bd2-8ba3-2b38d7050f14")),
-                    SecurityAlgorithms.HmacSha256)),
-                new JwtPayload(claims));
+                issuer: "ittweb6.herokuapp.com",
+                audience: "ittweb6.herokuapp.com",
+                claims: claims,
+                expires: DateTime.Now.AddMinutes(15),
+                signingCredentials: cred);
 
             return new JwtSecurityTokenHandler().WriteToken(token);
         }
