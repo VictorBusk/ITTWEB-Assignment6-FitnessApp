@@ -70,7 +70,7 @@ namespace ITTWEB_Assignment6_FitnessApp
                         ValidateAudience = false,
                         ValidateLifetime = true,
                         ValidateIssuerSigningKey = false,
-                        ValidIssuer = "ittweb6.herokuapp.com",
+                        ValidIssuer = "JWT",
                         ValidAudience = "ittweb6.herokuapp.com",
                         IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("70061ee6-92a1-4bd2-8ba3-2b38d7050f14"))
                     };

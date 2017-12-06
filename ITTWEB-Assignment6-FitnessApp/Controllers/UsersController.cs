@@ -114,7 +114,7 @@ namespace ITTWEB_Assignment6_FitnessApp.Controllers
             var cred = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
 
             var token = new JwtSecurityToken(
-                issuer: "ittweb6.herokuapp.com",
+                issuer: "JWT",
                 audience: "ittweb6.herokuapp.com",
                 claims: claims,
                 expires: DateTime.Now.AddHours(12),
