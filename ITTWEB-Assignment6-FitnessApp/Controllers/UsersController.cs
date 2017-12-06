@@ -11,7 +11,7 @@ using Microsoft.IdentityModel.Tokens;
 
 namespace ITTWEB_Assignment6_FitnessApp.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api")]
     public class UsersController : Controller
     {
         private readonly ApplicationDbContext _context;
@@ -25,23 +25,23 @@ namespace ITTWEB_Assignment6_FitnessApp.Controllers
             _signInManager = signInManager;
         }
         
-        [HttpGet]
+        [HttpGet("users")]
         public IEnumerable<string> Get() {
             return new string[] { "Hello", "World" };
         }
         
-        [HttpPut]
+        [HttpPut("users")]
         public IEnumerable<string> Put() {
             return new string[] { "Hello", "World" };
         }
         
-        [HttpDelete("{id}")]
+        [HttpDelete("users/{id}")]
         public IEnumerable<string> Delete() {
             return new string[] { "Hello", "World" };
         }
         
         
-        [HttpPost]
+        [HttpPost("users")]
         //public async Task<IActionResult> Register([FromBody] string email, [FromBody] string password, [FromBody] string name)
         public async Task<IActionResult> Post([FromBody] DtoUser dtoUser)
         {
@@ -62,7 +62,7 @@ namespace ITTWEB_Assignment6_FitnessApp.Controllers
             return BadRequest(ModelState);
         }
         
-        [HttpPost("Logout")]
+        [HttpPost("logout")]
         public async Task<IActionResult> Logout()
         {
             await _signInManager.SignOutAsync();
