@@ -64,9 +64,11 @@ namespace ITTWEB_Assignment6_FitnessApp
                 {
                     options.DefaultAuthenticateScheme = "JWT";
                     options.DefaultChallengeScheme = "JWT";
+                    options.DefaultScheme = "JWT";
                 })
                 .AddJwtBearer("JWT", options =>
                 {
+                    options.ClaimsIssuer = "JWT";
                     options.RequireHttpsMetadata = false;
                     options.SaveToken = true;
                     options.TokenValidationParameters = new TokenValidationParameters
