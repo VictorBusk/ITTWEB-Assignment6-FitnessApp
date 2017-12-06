@@ -12784,7 +12784,8 @@
     ]
   },
   "packageFolders": {
-    "/Users/jeppestaerk/.nuget/packages/": {}
+    "/Users/jeppestaerk/.nuget/packages/": {},
+    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
@@ -12795,8 +12796,11 @@
       "packagesPath": "/Users/jeppestaerk/.nuget/packages/",
       "outputPath": "/Users/jeppestaerk/Projects/ITTWEB-Assignment6-FitnessApp/ITTWEB-Assignment6-FitnessApp/obj/",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "/Users/jeppestaerk/.config/NuGet/NuGet.Config"
+        "/Users/jeppestaerk/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
@@ -12808,6 +12812,11 @@
         "netcoreapp2.0": {
           "projectReferences": {}
         }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
       }
     },
     "frameworks": {
@@ -12815,7 +12824,8 @@
         "dependencies": {
           "Microsoft.NETCore.App": {
             "target": "Package",
-            "version": "2.0"
+            "version": "2.0",
+            "autoReferenced": true
           },
           "Microsoft.AspNetCore.All": {
             "target": "Package",

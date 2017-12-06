@@ -1,10 +1,13 @@
 ﻿using System.Linq;
 using ITTWEB_Assignment6_FitnessApp.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ITTWEB_Assignment6_FitnessApp.Controllers
 {
-    [Route("api/[controller]")]
+    [Produces("application/json")]
+    [Route("api/excercises")]
+    [Authorize]
     public class ExercisesController : Controller
     {
         private readonly ApplicationDbContext _context;
@@ -14,67 +17,41 @@ namespace ITTWEB_Assignment6_FitnessApp.Controllers
             _context = context;
         }
         
-        [HttpGet("{id}", Name = "GetExercise")]
-        public IActionResult Get(long id) {
-            
-            var item = _context.Exercises.FirstOrDefault(t => t.Id == id);
-            if (item == null)
-            {
-                return NotFound();
-            }
-            return new ObjectResult(item);
+        [HttpGet]
+        public JsonResult Get()
+        {
+            return Json(_context.Exercises.ToList());
         }
         
         [HttpPost]
-        public IActionResult Post([FromBody] Exercise item) {
-            if (item == null)
+        public JsonResult Post([FromBody] Exercise dtoExercise)
+        {
+            var newExercise = new Exercise()
             {
-                return BadRequest();
-            }
+                Name = dtoExercise.Name,
+                Description = dtoExercise.Description
+            };
 
-            _context.Exercises.Add(item);
+            var dbExercise = _context.Exercises.Add(newExercise);
             _context.SaveChanges();
-
-            return CreatedAtRoute("GetExercise", new { id = item.Id }, item);
+            return Json(dbExercise.Entity);
         }
         
         [HttpPut]
-        public IActionResult Put([FromBody] Exercise item) {
-            if (item == null)
-            {
-                return BadRequest();
-            }
-
-            var exercise = _context.Exercises.FirstOrDefault(t => t.Id == item.Id);
-            if (exercise == null)
-            {
-                return NotFound();
-            }
-
-            exercise.Name = item.Name;
-            exercise.Description = item.Description;
-            exercise.Sets = item.Sets;
-            exercise.Reps = item.Reps;
-
-            _context.Exercises.Update(exercise);
+        public JsonResult Put([FromBody] Exercise dtoExercise) 
+        {
+            var dbExercise = _context.Exercises.Update(dtoExercise);
             _context.SaveChanges();
-
-            return new NoContentResult();
+            return Json(dbExercise.Entity);
         }
         
         [HttpDelete("{id}")]
-        public IActionResult Delete(long id) {
-            
-            var exercise = _context.Exercises.FirstOrDefault(t => t.Id == id);
-            if (exercise == null)
-            {
-                return NotFound();
-            }
-
-            _context.Exercises.Remove(exercise);
+        public JsonResult Delete([FromRoute] long id)
+        {
+            var dbExercise = _context.Exercises.First(w => w.Id == id);
+            var deletedExercise = _context.Exercises.Remove(dbExercise);
             _context.SaveChanges();
-            
-            return new NoContentResult();
+            return Json(deletedExercise.Entity);
         }
     }
 }

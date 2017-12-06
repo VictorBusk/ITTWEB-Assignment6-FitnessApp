@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
+using System.Linq;
 using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
@@ -29,29 +30,9 @@ namespace ITTWEB_Assignment6_FitnessApp.Controllers
         }
         
         [AllowAnonymous]
-        [HttpGet("clean")]
-        public IEnumerable<string> Clean() {
-            return new string[] { "Hello", "World" };
-        }
-        
-        [HttpGet("test")]
-        public IEnumerable<string> Test() {
-            return new string[] { "Hello", "World" };
-        }
-        
-        [HttpGet("users")]
-        public IEnumerable<string> Get() {
-            return new string[] { "Hello", "World" };
-        }
-        
-        [HttpPut("users")]
-        public IEnumerable<string> Put() {
-            return new string[] { "Hello", "World" };
-        }
-        
-        [HttpDelete("users/{id}")]
-        public IEnumerable<string> Delete() {
-            return new string[] { "Hello", "World" };
+        [HttpGet]
+        public IActionResult HelloWorld() {
+            return Ok(new { HelloWorld = "Hello World!" });
         }
         
         [AllowAnonymous]
@@ -75,14 +56,7 @@ namespace ITTWEB_Assignment6_FitnessApp.Controllers
                 ModelState.AddModelError(string.Empty, error.Description);
             return BadRequest(ModelState);
         }
-        
-        [HttpPost("logout")]
-        public async Task<IActionResult> Logout()
-        {
-            await _signInManager.SignOutAsync();
-            return Ok();
-        }
-        
+                
         [AllowAnonymous]
         [HttpPost("login")]
         public async Task<IActionResult> login([FromBody]DtoUser dtoUser)
@@ -96,9 +70,27 @@ namespace ITTWEB_Assignment6_FitnessApp.Controllers
             var passwordSignInResult = await _signInManager.CheckPasswordSignInAsync(user, dtoUser.Password, false);
             if (passwordSignInResult.Succeeded)
             {
-                return Ok(new { token = "JWT " + GenerateToken(dtoUser.Email)});
+                return Ok(new { token = "Bearer " + GenerateToken(dtoUser.Email)});
             }
             return BadRequest("Invalid login");
+        }
+                
+        [HttpGet("me")]
+        public JsonResult Me()
+        {
+            var token = HttpContext.Request?.Headers["Authorization"];
+            var jwtToken = new JwtSecurityTokenHandler().ReadJwtToken(token.ToString().Replace("Bearer ", ""));
+            var jwtClaims = jwtToken.Claims;
+            var jwtUsername = jwtClaims.First(c => c.Type == ClaimTypes.Name).Value;
+            var userDto = _context.Users.First(u => u.UserName == jwtUsername);
+            return Json(userDto);
+        }
+                
+        [HttpPost("logout")]
+        public async Task<IActionResult> Logout()
+        {
+            await _signInManager.SignOutAsync();
+            return Ok();
         }
 
         private string GenerateToken(string username)
@@ -106,8 +98,8 @@ namespace ITTWEB_Assignment6_FitnessApp.Controllers
             var claims = new Claim[]
             {
                 new Claim(ClaimTypes.Name, username),
-                //new Claim(JwtRegisteredClaimNames.Nbf, new DateTimeOffset(DateTime.Now).ToUnixTimeSeconds().ToString()),
-                //new Claim(JwtRegisteredClaimNames.Exp, new DateTimeOffset(DateTime.Now.AddHours(12)).ToUnixTimeSeconds().ToString()),
+                new Claim(JwtRegisteredClaimNames.Nbf, new DateTimeOffset(DateTime.Now).ToUnixTimeSeconds().ToString()),
+                new Claim(JwtRegisteredClaimNames.Exp, new DateTimeOffset(DateTime.Now.AddHours(12)).ToUnixTimeSeconds().ToString()),
             };
 
             var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("70061ee6-92a1-4bd2-8ba3-2b38d7050f14"));

@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Buffers;
 using System.Collections.Generic;
+using System.IdentityModel.Tokens.Jwt;
 using System.IO;
 using System.Linq;
+using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
 using ITTWEB_Assignment6_FitnessApp.Models;
@@ -68,6 +70,24 @@ namespace ITTWEB_Assignment6_FitnessApp
                 })
                 .AddJwtBearer("JWT", options =>
                 {
+                    options.Events = new JwtBearerEvents
+                    {
+                        OnTokenValidated = context =>
+                        {
+                            // Add the access_token as a claim, as we may actually need it
+                            var accessToken = context.SecurityToken as JwtSecurityToken;
+                            if (accessToken != null)
+                            {
+                                ClaimsIdentity identity = context.Principal.Identity as ClaimsIdentity;
+                                if (identity != null)
+                                {
+                                    identity.AddClaim(new Claim("access_token", accessToken.RawData));
+                                }
+                            }
+
+                            return Task.CompletedTask;
+                        }
+                    };
                     options.ClaimsIssuer = "JWT";
                     options.RequireHttpsMetadata = false;
                     options.SaveToken = true;

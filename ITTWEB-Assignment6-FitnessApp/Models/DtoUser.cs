@@ -8,6 +8,5 @@ namespace ITTWEB_Assignment6_FitnessApp.Models
         public string Name { get; set; }
         public string Email { get; set; }
         public string Password { get; set; }
-        public List<Workout> Workouts { get; set; }
     }
 }
