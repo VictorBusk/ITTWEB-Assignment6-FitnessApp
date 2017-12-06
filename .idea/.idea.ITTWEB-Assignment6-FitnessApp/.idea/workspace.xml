@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6f87b17b-3444-46c3-8648-d2c695152ca6" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.ITTWEB-Assignment6-FitnessApp/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.ITTWEB-Assignment6-FitnessApp/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/Startup.cs" afterPath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/Startup.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/Controllers/UsersController.cs" afterPath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/Controllers/UsersController.cs" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,58 +14,58 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="UsersController.cs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="UsersController.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/Controllers/UsersController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+            <state relative-caret-position="341">
+              <caret line="71" column="42" lean-forward="false" selection-start-line="71" selection-start-column="42" selection-end-line="71" selection-end-column="42" />
               <folding>
-                <marker date="1512581469648" expanded="false" signature="6:358" ph="..." />
-                <marker date="1512581469648" expanded="true" signature="411:4521" ph="{...}" />
-                <marker date="1512581469648" expanded="true" signature="529:4519" ph="{...}" />
-                <marker date="1512581469648" expanded="true" signature="837:973" ph="{...}" />
-                <marker date="1512581469648" expanded="true" signature="1078:1143" ph="{...}" />
-                <marker date="1512581469648" expanded="true" signature="1221:1286" ph="{...}" />
-                <marker date="1512581469648" expanded="true" signature="1364:1429" ph="{...}" />
-                <marker date="1512581469648" expanded="true" signature="1507:1572" ph="{...}" />
-                <marker date="1512581469648" expanded="true" signature="1661:1726" ph="{...}" />
-                <marker date="1512581469648" expanded="true" signature="1991:2625" ph="{...}" />
-                <marker date="1512581469648" expanded="true" signature="2051:2183" ph="{...}" />
-                <marker date="1512581469648" expanded="true" signature="2327:2436" ph="{...}" />
-                <marker date="1512581469648" expanded="true" signature="2713:2807" ph="{...}" />
-                <marker date="1512581469648" expanded="true" signature="2943:3538" ph="{...}" />
-                <marker date="1512581469648" expanded="true" signature="3058:3206" ph="{...}" />
-                <marker date="1512581469648" expanded="true" signature="3371:3480" ph="{...}" />
-                <marker date="1512581469648" expanded="true" signature="3593:4513" ph="{...}" />
-                <marker date="1512581469648" expanded="true" signature="3653:3981" ph="{...}" />
-                <marker date="1512581469648" expanded="true" signature="3725:3967" ph="/* new Claim(JwtRegisteredClaimNames.Nbf, new DateTimeOffset(DateTime.Now).ToUnixTimeSeconds().ToString()), ... */" />
+                <marker date="1512583305710" expanded="false" signature="6:358" ph="..." />
+                <marker date="1512583305710" expanded="true" signature="411:4524" ph="{...}" />
+                <marker date="1512583305710" expanded="true" signature="529:4522" ph="{...}" />
+                <marker date="1512583305710" expanded="true" signature="837:973" ph="{...}" />
+                <marker date="1512583305710" expanded="true" signature="1078:1143" ph="{...}" />
+                <marker date="1512583305710" expanded="true" signature="1221:1286" ph="{...}" />
+                <marker date="1512583305710" expanded="true" signature="1364:1429" ph="{...}" />
+                <marker date="1512583305710" expanded="true" signature="1507:1572" ph="{...}" />
+                <marker date="1512583305710" expanded="true" signature="1661:1726" ph="{...}" />
+                <marker date="1512583305710" expanded="true" signature="1991:2628" ph="{...}" />
+                <marker date="1512583305710" expanded="true" signature="2051:2183" ph="{...}" />
+                <marker date="1512583305710" expanded="true" signature="2327:2439" ph="{...}" />
+                <marker date="1512583305710" expanded="true" signature="2716:2810" ph="{...}" />
+                <marker date="1512583305710" expanded="true" signature="2946:3541" ph="{...}" />
+                <marker date="1512583305710" expanded="true" signature="3061:3209" ph="{...}" />
+                <marker date="1512583305710" expanded="true" signature="3374:3483" ph="{...}" />
+                <marker date="1512583305710" expanded="true" signature="3596:4516" ph="{...}" />
+                <marker date="1512583305710" expanded="true" signature="3656:3984" ph="{...}" />
+                <marker date="1512583305710" expanded="true" signature="3728:3970" ph="/* new Claim(JwtRegisteredClaimNames.Nbf, new DateTimeOffset(DateTime.Now).ToUnixTimeSeconds().ToString()), ... */" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Startup.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Startup.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/Startup.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="66" column="50" lean-forward="false" selection-start-line="66" selection-start-column="50" selection-end-line="66" selection-end-column="50" />
+            <state relative-caret-position="397">
+              <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
               <folding>
-                <marker date="1512582725142" expanded="false" signature="6:621" ph="..." />
-                <marker date="1512582725142" expanded="true" signature="662:4763" ph="{...}" />
-                <marker date="1512582725142" expanded="true" signature="689:4761" ph="{...}" />
-                <marker date="1512582725142" expanded="true" signature="748:811" ph="{...}" />
-                <marker date="1512582725142" expanded="true" signature="1034:3557" ph="{...}" />
-                <marker date="1512582725142" expanded="true" signature="1290:1555" ph="{...}" />
-                <marker date="1512582725142" expanded="true" signature="1962:2281" ph="{...}" />
-                <marker date="1512582725142" expanded="true" signature="2366:2576" ph="{...}" />
-                <marker date="1512582725142" expanded="true" signature="2625:3393" ph="{...}" />
-                <marker date="1512582725142" expanded="true" signature="2904:3374" ph="{...}" />
-                <marker date="1512582725142" expanded="true" signature="3745:4755" ph="{...}" />
-                <marker date="1512582725142" expanded="true" signature="3792:3869" ph="{...}" />
-                <marker date="1512582725142" expanded="true" signature="3886:3970" ph="{...}" />
-                <marker date="1512582725142" expanded="true" signature="4043:4229" ph="{...}" />
-                <marker date="1512582725142" expanded="true" signature="4278:4632" ph="{...}" />
-                <marker date="1512582725142" expanded="true" signature="4507:4618" ph="{...}" />
+                <marker date="1512583185837" expanded="false" signature="6:621" ph="..." />
+                <marker date="1512583185837" expanded="true" signature="662:4763" ph="{...}" />
+                <marker date="1512583185837" expanded="true" signature="689:4761" ph="{...}" />
+                <marker date="1512583185837" expanded="true" signature="748:811" ph="{...}" />
+                <marker date="1512583185837" expanded="true" signature="1034:3557" ph="{...}" />
+                <marker date="1512583185837" expanded="true" signature="1290:1555" ph="{...}" />
+                <marker date="1512583185837" expanded="true" signature="1962:2281" ph="{...}" />
+                <marker date="1512583185837" expanded="true" signature="2366:2576" ph="{...}" />
+                <marker date="1512583185837" expanded="true" signature="2625:3393" ph="{...}" />
+                <marker date="1512583185837" expanded="true" signature="2904:3374" ph="{...}" />
+                <marker date="1512583185837" expanded="true" signature="3745:4755" ph="{...}" />
+                <marker date="1512583185837" expanded="true" signature="3792:3869" ph="{...}" />
+                <marker date="1512583185837" expanded="true" signature="3886:3970" ph="{...}" />
+                <marker date="1512583185837" expanded="true" signature="4043:4229" ph="{...}" />
+                <marker date="1512583185837" expanded="true" signature="4278:4632" ph="{...}" />
+                <marker date="1512583185837" expanded="true" signature="4507:4618" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -107,8 +107,8 @@
         <option value="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/ApplicationDbContext.cs" />
         <option value="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/Models/User.cs" />
         <option value="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/Models/DtoUser.cs" />
-        <option value="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/Controllers/UsersController.cs" />
         <option value="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/Startup.cs" />
+        <option value="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/Controllers/UsersController.cs" />
       </list>
     </option>
   </component>
@@ -240,7 +240,7 @@
       <updated>1511902026362</updated>
       <workItem from="1511902029800" duration="3550000" />
       <workItem from="1512415297386" duration="1963000" />
-      <workItem from="1512570430778" duration="9368000" />
+      <workItem from="1512570430778" duration="9727000" />
     </task>
     <task id="LOCAL-00001" summary="Angular client added">
       <created>1511902822468</created>
@@ -403,11 +403,18 @@
       <option name="project" value="LOCAL" />
       <updated>1512582449689</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="JWT update">
+      <created>1512582727409</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1512582727409</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14881000" />
+    <option name="totallyTimeSpent" value="15240000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -494,25 +501,25 @@
         <state relative-caret-position="1155">
           <caret line="77" column="41" lean-forward="false" selection-start-line="77" selection-start-column="41" selection-end-line="77" selection-end-column="41" />
           <folding>
-            <marker date="1512581469648" expanded="false" signature="6:358" ph="..." />
-            <marker date="1512581469648" expanded="true" signature="411:4521" ph="{...}" />
-            <marker date="1512581469648" expanded="true" signature="529:4519" ph="{...}" />
-            <marker date="1512581469648" expanded="true" signature="837:973" ph="{...}" />
-            <marker date="1512581469648" expanded="true" signature="1078:1143" ph="{...}" />
-            <marker date="1512581469648" expanded="true" signature="1221:1286" ph="{...}" />
-            <marker date="1512581469648" expanded="true" signature="1364:1429" ph="{...}" />
-            <marker date="1512581469648" expanded="true" signature="1507:1572" ph="{...}" />
-            <marker date="1512581469648" expanded="true" signature="1661:1726" ph="{...}" />
-            <marker date="1512581469648" expanded="true" signature="1991:2625" ph="{...}" />
-            <marker date="1512581469648" expanded="true" signature="2051:2183" ph="{...}" />
-            <marker date="1512581469648" expanded="true" signature="2327:2436" ph="{...}" />
-            <marker date="1512581469648" expanded="true" signature="2713:2807" ph="{...}" />
-            <marker date="1512581469648" expanded="true" signature="2943:3538" ph="{...}" />
-            <marker date="1512581469648" expanded="true" signature="3058:3206" ph="{...}" />
-            <marker date="1512581469648" expanded="true" signature="3371:3480" ph="{...}" />
-            <marker date="1512581469648" expanded="true" signature="3593:4513" ph="{...}" />
-            <marker date="1512581469648" expanded="true" signature="3653:3981" ph="{...}" />
-            <marker date="1512581469648" expanded="true" signature="3725:3967" ph="/* new Claim(JwtRegisteredClaimNames.Nbf, new DateTimeOffset(DateTime.Now).ToUnixTimeSeconds().ToString()), ... */" />
+            <marker date="1512583305710" expanded="false" signature="6:358" ph="..." />
+            <marker date="1512583305710" expanded="true" signature="411:4524" ph="{...}" />
+            <marker date="1512583305710" expanded="true" signature="529:4522" ph="{...}" />
+            <marker date="1512583305710" expanded="true" signature="837:973" ph="{...}" />
+            <marker date="1512583305710" expanded="true" signature="1078:1143" ph="{...}" />
+            <marker date="1512583305710" expanded="true" signature="1221:1286" ph="{...}" />
+            <marker date="1512583305710" expanded="true" signature="1364:1429" ph="{...}" />
+            <marker date="1512583305710" expanded="true" signature="1507:1572" ph="{...}" />
+            <marker date="1512583305710" expanded="true" signature="1661:1726" ph="{...}" />
+            <marker date="1512583305710" expanded="true" signature="1991:2628" ph="{...}" />
+            <marker date="1512583305710" expanded="true" signature="2051:2183" ph="{...}" />
+            <marker date="1512583305710" expanded="true" signature="2327:2439" ph="{...}" />
+            <marker date="1512583305710" expanded="true" signature="2716:2810" ph="{...}" />
+            <marker date="1512583305710" expanded="true" signature="2946:3541" ph="{...}" />
+            <marker date="1512583305710" expanded="true" signature="3061:3209" ph="{...}" />
+            <marker date="1512583305710" expanded="true" signature="3374:3483" ph="{...}" />
+            <marker date="1512583305710" expanded="true" signature="3596:4516" ph="{...}" />
+            <marker date="1512583305710" expanded="true" signature="3656:3984" ph="{...}" />
+            <marker date="1512583305710" expanded="true" signature="3728:3970" ph="/* new Claim(JwtRegisteredClaimNames.Nbf, new DateTimeOffset(DateTime.Now).ToUnixTimeSeconds().ToString()), ... */" />
           </folding>
         </state>
       </provider>
@@ -573,22 +580,22 @@
         <state relative-caret-position="660">
           <caret line="58" column="56" lean-forward="false" selection-start-line="58" selection-start-column="53" selection-end-line="58" selection-end-column="56" />
           <folding>
-            <marker date="1512582725142" expanded="false" signature="6:621" ph="..." />
-            <marker date="1512582725142" expanded="true" signature="662:4763" ph="{...}" />
-            <marker date="1512582725142" expanded="true" signature="689:4761" ph="{...}" />
-            <marker date="1512582725142" expanded="true" signature="748:811" ph="{...}" />
-            <marker date="1512582725142" expanded="true" signature="1034:3557" ph="{...}" />
-            <marker date="1512582725142" expanded="true" signature="1290:1555" ph="{...}" />
-            <marker date="1512582725142" expanded="true" signature="1962:2281" ph="{...}" />
-            <marker date="1512582725142" expanded="true" signature="2366:2576" ph="{...}" />
-            <marker date="1512582725142" expanded="true" signature="2625:3393" ph="{...}" />
-            <marker date="1512582725142" expanded="true" signature="2904:3374" ph="{...}" />
-            <marker date="1512582725142" expanded="true" signature="3745:4755" ph="{...}" />
-            <marker date="1512582725142" expanded="true" signature="3792:3869" ph="{...}" />
-            <marker date="1512582725142" expanded="true" signature="3886:3970" ph="{...}" />
-            <marker date="1512582725142" expanded="true" signature="4043:4229" ph="{...}" />
-            <marker date="1512582725142" expanded="true" signature="4278:4632" ph="{...}" />
-            <marker date="1512582725142" expanded="true" signature="4507:4618" ph="{...}" />
+            <marker date="1512583185837" expanded="false" signature="6:621" ph="..." />
+            <marker date="1512583185837" expanded="true" signature="662:4763" ph="{...}" />
+            <marker date="1512583185837" expanded="true" signature="689:4761" ph="{...}" />
+            <marker date="1512583185837" expanded="true" signature="748:811" ph="{...}" />
+            <marker date="1512583185837" expanded="true" signature="1034:3557" ph="{...}" />
+            <marker date="1512583185837" expanded="true" signature="1290:1555" ph="{...}" />
+            <marker date="1512583185837" expanded="true" signature="1962:2281" ph="{...}" />
+            <marker date="1512583185837" expanded="true" signature="2366:2576" ph="{...}" />
+            <marker date="1512583185837" expanded="true" signature="2625:3393" ph="{...}" />
+            <marker date="1512583185837" expanded="true" signature="2904:3374" ph="{...}" />
+            <marker date="1512583185837" expanded="true" signature="3745:4755" ph="{...}" />
+            <marker date="1512583185837" expanded="true" signature="3792:3869" ph="{...}" />
+            <marker date="1512583185837" expanded="true" signature="3886:3970" ph="{...}" />
+            <marker date="1512583185837" expanded="true" signature="4043:4229" ph="{...}" />
+            <marker date="1512583185837" expanded="true" signature="4278:4632" ph="{...}" />
+            <marker date="1512583185837" expanded="true" signature="4507:4618" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -622,25 +629,25 @@
         <state relative-caret-position="450">
           <caret line="30" column="26" lean-forward="false" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
           <folding>
-            <marker date="1512581469648" expanded="false" signature="6:358" ph="..." />
-            <marker date="1512581469648" expanded="true" signature="411:4521" ph="{...}" />
-            <marker date="1512581469648" expanded="true" signature="529:4519" ph="{...}" />
-            <marker date="1512581469648" expanded="true" signature="837:973" ph="{...}" />
-            <marker date="1512581469648" expanded="true" signature="1078:1143" ph="{...}" />
-            <marker date="1512581469648" expanded="true" signature="1221:1286" ph="{...}" />
-            <marker date="1512581469648" expanded="true" signature="1364:1429" ph="{...}" />
-            <marker date="1512581469648" expanded="true" signature="1507:1572" ph="{...}" />
-            <marker date="1512581469648" expanded="true" signature="1661:1726" ph="{...}" />
-            <marker date="1512581469648" expanded="true" signature="1991:2625" ph="{...}" />
-            <marker date="1512581469648" expanded="true" signature="2051:2183" ph="{...}" />
-            <marker date="1512581469648" expanded="true" signature="2327:2436" ph="{...}" />
-            <marker date="1512581469648" expanded="true" signature="2713:2807" ph="{...}" />
-            <marker date="1512581469648" expanded="true" signature="2943:3538" ph="{...}" />
-            <marker date="1512581469648" expanded="true" signature="3058:3206" ph="{...}" />
-            <marker date="1512581469648" expanded="true" signature="3371:3480" ph="{...}" />
-            <marker date="1512581469648" expanded="true" signature="3593:4513" ph="{...}" />
-            <marker date="1512581469648" expanded="true" signature="3653:3981" ph="{...}" />
-            <marker date="1512581469648" expanded="true" signature="3725:3967" ph="/* new Claim(JwtRegisteredClaimNames.Nbf, new DateTimeOffset(DateTime.Now).ToUnixTimeSeconds().ToString()), ... */" />
+            <marker date="1512583305710" expanded="false" signature="6:358" ph="..." />
+            <marker date="1512583305710" expanded="true" signature="411:4524" ph="{...}" />
+            <marker date="1512583305710" expanded="true" signature="529:4522" ph="{...}" />
+            <marker date="1512583305710" expanded="true" signature="837:973" ph="{...}" />
+            <marker date="1512583305710" expanded="true" signature="1078:1143" ph="{...}" />
+            <marker date="1512583305710" expanded="true" signature="1221:1286" ph="{...}" />
+            <marker date="1512583305710" expanded="true" signature="1364:1429" ph="{...}" />
+            <marker date="1512583305710" expanded="true" signature="1507:1572" ph="{...}" />
+            <marker date="1512583305710" expanded="true" signature="1661:1726" ph="{...}" />
+            <marker date="1512583305710" expanded="true" signature="1991:2628" ph="{...}" />
+            <marker date="1512583305710" expanded="true" signature="2051:2183" ph="{...}" />
+            <marker date="1512583305710" expanded="true" signature="2327:2439" ph="{...}" />
+            <marker date="1512583305710" expanded="true" signature="2716:2810" ph="{...}" />
+            <marker date="1512583305710" expanded="true" signature="2946:3541" ph="{...}" />
+            <marker date="1512583305710" expanded="true" signature="3061:3209" ph="{...}" />
+            <marker date="1512583305710" expanded="true" signature="3374:3483" ph="{...}" />
+            <marker date="1512583305710" expanded="true" signature="3596:4516" ph="{...}" />
+            <marker date="1512583305710" expanded="true" signature="3656:3984" ph="{...}" />
+            <marker date="1512583305710" expanded="true" signature="3728:3970" ph="/* new Claim(JwtRegisteredClaimNames.Nbf, new DateTimeOffset(DateTime.Now).ToUnixTimeSeconds().ToString()), ... */" />
           </folding>
         </state>
       </provider>
@@ -675,22 +682,22 @@
         <state relative-caret-position="390">
           <caret line="26" column="155" lean-forward="false" selection-start-line="26" selection-start-column="155" selection-end-line="26" selection-end-column="155" />
           <folding>
-            <marker date="1512582725142" expanded="false" signature="6:621" ph="..." />
-            <marker date="1512582725142" expanded="true" signature="662:4763" ph="{...}" />
-            <marker date="1512582725142" expanded="true" signature="689:4761" ph="{...}" />
-            <marker date="1512582725142" expanded="true" signature="748:811" ph="{...}" />
-            <marker date="1512582725142" expanded="true" signature="1034:3557" ph="{...}" />
-            <marker date="1512582725142" expanded="true" signature="1290:1555" ph="{...}" />
-            <marker date="1512582725142" expanded="true" signature="1962:2281" ph="{...}" />
-            <marker date="1512582725142" expanded="true" signature="2366:2576" ph="{...}" />
-            <marker date="1512582725142" expanded="true" signature="2625:3393" ph="{...}" />
-            <marker date="1512582725142" expanded="true" signature="2904:3374" ph="{...}" />
-            <marker date="1512582725142" expanded="true" signature="3745:4755" ph="{...}" />
-            <marker date="1512582725142" expanded="true" signature="3792:3869" ph="{...}" />
-            <marker date="1512582725142" expanded="true" signature="3886:3970" ph="{...}" />
-            <marker date="1512582725142" expanded="true" signature="4043:4229" ph="{...}" />
-            <marker date="1512582725142" expanded="true" signature="4278:4632" ph="{...}" />
-            <marker date="1512582725142" expanded="true" signature="4507:4618" ph="{...}" />
+            <marker date="1512583185837" expanded="false" signature="6:621" ph="..." />
+            <marker date="1512583185837" expanded="true" signature="662:4763" ph="{...}" />
+            <marker date="1512583185837" expanded="true" signature="689:4761" ph="{...}" />
+            <marker date="1512583185837" expanded="true" signature="748:811" ph="{...}" />
+            <marker date="1512583185837" expanded="true" signature="1034:3557" ph="{...}" />
+            <marker date="1512583185837" expanded="true" signature="1290:1555" ph="{...}" />
+            <marker date="1512583185837" expanded="true" signature="1962:2281" ph="{...}" />
+            <marker date="1512583185837" expanded="true" signature="2366:2576" ph="{...}" />
+            <marker date="1512583185837" expanded="true" signature="2625:3393" ph="{...}" />
+            <marker date="1512583185837" expanded="true" signature="2904:3374" ph="{...}" />
+            <marker date="1512583185837" expanded="true" signature="3745:4755" ph="{...}" />
+            <marker date="1512583185837" expanded="true" signature="3792:3869" ph="{...}" />
+            <marker date="1512583185837" expanded="true" signature="3886:3970" ph="{...}" />
+            <marker date="1512583185837" expanded="true" signature="4043:4229" ph="{...}" />
+            <marker date="1512583185837" expanded="true" signature="4278:4632" ph="{...}" />
+            <marker date="1512583185837" expanded="true" signature="4507:4618" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -855,34 +862,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/Controllers/UsersController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-          <folding>
-            <marker date="1512581469648" expanded="false" signature="6:358" ph="..." />
-            <marker date="1512581469648" expanded="true" signature="411:4521" ph="{...}" />
-            <marker date="1512581469648" expanded="true" signature="529:4519" ph="{...}" />
-            <marker date="1512581469648" expanded="true" signature="837:973" ph="{...}" />
-            <marker date="1512581469648" expanded="true" signature="1078:1143" ph="{...}" />
-            <marker date="1512581469648" expanded="true" signature="1221:1286" ph="{...}" />
-            <marker date="1512581469648" expanded="true" signature="1364:1429" ph="{...}" />
-            <marker date="1512581469648" expanded="true" signature="1507:1572" ph="{...}" />
-            <marker date="1512581469648" expanded="true" signature="1661:1726" ph="{...}" />
-            <marker date="1512581469648" expanded="true" signature="1991:2625" ph="{...}" />
-            <marker date="1512581469648" expanded="true" signature="2051:2183" ph="{...}" />
-            <marker date="1512581469648" expanded="true" signature="2327:2436" ph="{...}" />
-            <marker date="1512581469648" expanded="true" signature="2713:2807" ph="{...}" />
-            <marker date="1512581469648" expanded="true" signature="2943:3538" ph="{...}" />
-            <marker date="1512581469648" expanded="true" signature="3058:3206" ph="{...}" />
-            <marker date="1512581469648" expanded="true" signature="3371:3480" ph="{...}" />
-            <marker date="1512581469648" expanded="true" signature="3593:4513" ph="{...}" />
-            <marker date="1512581469648" expanded="true" signature="3653:3981" ph="{...}" />
-            <marker date="1512581469648" expanded="true" signature="3725:3967" ph="/* new Claim(JwtRegisteredClaimNames.Nbf, new DateTimeOffset(DateTime.Now).ToUnixTimeSeconds().ToString()), ... */" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1220CBBB-838F-4074-8FD9-DBBBB47635A8/20/388421e9/AuthenticationSchemeOptions.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -893,25 +872,53 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/Startup.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="66" column="50" lean-forward="false" selection-start-line="66" selection-start-column="50" selection-end-line="66" selection-end-column="50" />
+        <state relative-caret-position="397">
+          <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
           <folding>
-            <marker date="1512582725142" expanded="false" signature="6:621" ph="..." />
-            <marker date="1512582725142" expanded="true" signature="662:4763" ph="{...}" />
-            <marker date="1512582725142" expanded="true" signature="689:4761" ph="{...}" />
-            <marker date="1512582725142" expanded="true" signature="748:811" ph="{...}" />
-            <marker date="1512582725142" expanded="true" signature="1034:3557" ph="{...}" />
-            <marker date="1512582725142" expanded="true" signature="1290:1555" ph="{...}" />
-            <marker date="1512582725142" expanded="true" signature="1962:2281" ph="{...}" />
-            <marker date="1512582725142" expanded="true" signature="2366:2576" ph="{...}" />
-            <marker date="1512582725142" expanded="true" signature="2625:3393" ph="{...}" />
-            <marker date="1512582725142" expanded="true" signature="2904:3374" ph="{...}" />
-            <marker date="1512582725142" expanded="true" signature="3745:4755" ph="{...}" />
-            <marker date="1512582725142" expanded="true" signature="3792:3869" ph="{...}" />
-            <marker date="1512582725142" expanded="true" signature="3886:3970" ph="{...}" />
-            <marker date="1512582725142" expanded="true" signature="4043:4229" ph="{...}" />
-            <marker date="1512582725142" expanded="true" signature="4278:4632" ph="{...}" />
-            <marker date="1512582725142" expanded="true" signature="4507:4618" ph="{...}" />
+            <marker date="1512583185837" expanded="false" signature="6:621" ph="..." />
+            <marker date="1512583185837" expanded="true" signature="662:4763" ph="{...}" />
+            <marker date="1512583185837" expanded="true" signature="689:4761" ph="{...}" />
+            <marker date="1512583185837" expanded="true" signature="748:811" ph="{...}" />
+            <marker date="1512583185837" expanded="true" signature="1034:3557" ph="{...}" />
+            <marker date="1512583185837" expanded="true" signature="1290:1555" ph="{...}" />
+            <marker date="1512583185837" expanded="true" signature="1962:2281" ph="{...}" />
+            <marker date="1512583185837" expanded="true" signature="2366:2576" ph="{...}" />
+            <marker date="1512583185837" expanded="true" signature="2625:3393" ph="{...}" />
+            <marker date="1512583185837" expanded="true" signature="2904:3374" ph="{...}" />
+            <marker date="1512583185837" expanded="true" signature="3745:4755" ph="{...}" />
+            <marker date="1512583185837" expanded="true" signature="3792:3869" ph="{...}" />
+            <marker date="1512583185837" expanded="true" signature="3886:3970" ph="{...}" />
+            <marker date="1512583185837" expanded="true" signature="4043:4229" ph="{...}" />
+            <marker date="1512583185837" expanded="true" signature="4278:4632" ph="{...}" />
+            <marker date="1512583185837" expanded="true" signature="4507:4618" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/Controllers/UsersController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="71" column="42" lean-forward="false" selection-start-line="71" selection-start-column="42" selection-end-line="71" selection-end-column="42" />
+          <folding>
+            <marker date="1512583305710" expanded="false" signature="6:358" ph="..." />
+            <marker date="1512583305710" expanded="true" signature="411:4524" ph="{...}" />
+            <marker date="1512583305710" expanded="true" signature="529:4522" ph="{...}" />
+            <marker date="1512583305710" expanded="true" signature="837:973" ph="{...}" />
+            <marker date="1512583305710" expanded="true" signature="1078:1143" ph="{...}" />
+            <marker date="1512583305710" expanded="true" signature="1221:1286" ph="{...}" />
+            <marker date="1512583305710" expanded="true" signature="1364:1429" ph="{...}" />
+            <marker date="1512583305710" expanded="true" signature="1507:1572" ph="{...}" />
+            <marker date="1512583305710" expanded="true" signature="1661:1726" ph="{...}" />
+            <marker date="1512583305710" expanded="true" signature="1991:2628" ph="{...}" />
+            <marker date="1512583305710" expanded="true" signature="2051:2183" ph="{...}" />
+            <marker date="1512583305710" expanded="true" signature="2327:2439" ph="{...}" />
+            <marker date="1512583305710" expanded="true" signature="2716:2810" ph="{...}" />
+            <marker date="1512583305710" expanded="true" signature="2946:3541" ph="{...}" />
+            <marker date="1512583305710" expanded="true" signature="3061:3209" ph="{...}" />
+            <marker date="1512583305710" expanded="true" signature="3374:3483" ph="{...}" />
+            <marker date="1512583305710" expanded="true" signature="3596:4516" ph="{...}" />
+            <marker date="1512583305710" expanded="true" signature="3656:3984" ph="{...}" />
+            <marker date="1512583305710" expanded="true" signature="3728:3970" ph="/* new Claim(JwtRegisteredClaimNames.Nbf, new DateTimeOffset(DateTime.Now).ToUnixTimeSeconds().ToString()), ... */" />
           </folding>
         </state>
       </provider>

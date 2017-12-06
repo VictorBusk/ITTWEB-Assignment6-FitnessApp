@@ -69,7 +69,7 @@ namespace ITTWEB_Assignment6_FitnessApp.Controllers
             var userCreationResult = await _userManager.CreateAsync(newUser, dtoUser.Password);
             if (userCreationResult.Succeeded)
             {
-                return Ok(new { token = "JWT " + GenerateToken(newUser.Email)});
+                return Ok(new { token = "Bearer " + GenerateToken(newUser.Email)});
             }
             foreach (var error in userCreationResult.Errors)
                 ModelState.AddModelError(string.Empty, error.Description);
