@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6f87b17b-3444-46c3-8648-d2c695152ca6" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.ITTWEB-Assignment6-FitnessApp/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.ITTWEB-Assignment6-FitnessApp/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/Controllers/UsersController.cs" afterPath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/Controllers/UsersController.cs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/Startup.cs" afterPath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/Startup.cs" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,11 +37,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UsersController.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UsersController.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/Controllers/UsersController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="30" column="43" lean-forward="true" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
+            <state relative-caret-position="285">
+              <caret line="29" column="22" lean-forward="false" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="22" />
               <folding>
                 <marker date="1512577458319" expanded="false" signature="6:358" ph="..." />
                 <marker date="1512577458319" expanded="true" signature="411:4293" ph="{...}" />
@@ -84,26 +83,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Startup.cs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Startup.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/Startup.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="385">
-              <caret line="71" column="68" lean-forward="false" selection-start-line="71" selection-start-column="68" selection-end-line="71" selection-end-column="68" />
+            <state relative-caret-position="356">
+              <caret line="61" column="43" lean-forward="false" selection-start-line="61" selection-start-column="43" selection-end-line="61" selection-end-column="43" />
               <folding>
-                <marker date="1512577330095" expanded="true" signature="6:621" ph="..." />
-                <marker date="1512577330095" expanded="true" signature="662:4021" ph="{...}" />
-                <marker date="1512577330095" expanded="true" signature="689:4019" ph="{...}" />
-                <marker date="1512577330095" expanded="true" signature="748:811" ph="{...}" />
-                <marker date="1512577330095" expanded="true" signature="1034:3076" ph="{...}" />
-                <marker date="1512577330095" expanded="true" signature="1290:1555" ph="{...}" />
-                <marker date="1512577330095" expanded="true" signature="1949:2268" ph="{...}" />
-                <marker date="1512577330095" expanded="true" signature="2391:3020" ph="{...}" />
-                <marker date="1512577330095" expanded="true" signature="2516:3001" ph="{...}" />
-                <marker date="1512577330095" expanded="true" signature="3264:4013" ph="{...}" />
-                <marker date="1512577330095" expanded="true" signature="3311:3388" ph="{...}" />
-                <marker date="1512577330095" expanded="true" signature="3405:3489" ph="{...}" />
-                <marker date="1512577330095" expanded="true" signature="3536:3890" ph="{...}" />
-                <marker date="1512577330095" expanded="true" signature="3765:3876" ph="{...}" />
+                <marker date="1512577958918" expanded="true" signature="6:621" ph="..." />
+                <marker date="1512577958918" expanded="true" signature="662:4001" ph="{...}" />
+                <marker date="1512577958918" expanded="true" signature="689:3999" ph="{...}" />
+                <marker date="1512577958918" expanded="true" signature="748:811" ph="{...}" />
+                <marker date="1512577958918" expanded="true" signature="1034:3056" ph="{...}" />
+                <marker date="1512577958918" expanded="true" signature="1290:1555" ph="{...}" />
+                <marker date="1512577958918" expanded="true" signature="1962:2281" ph="{...}" />
+                <marker date="1512577958918" expanded="true" signature="2371:3000" ph="{...}" />
+                <marker date="1512577958918" expanded="true" signature="2496:2981" ph="{...}" />
+                <marker date="1512577958918" expanded="true" signature="3244:3993" ph="{...}" />
+                <marker date="1512577958918" expanded="true" signature="3291:3368" ph="{...}" />
+                <marker date="1512577958918" expanded="true" signature="3385:3469" ph="{...}" />
+                <marker date="1512577958918" expanded="true" signature="3516:3870" ph="{...}" />
+                <marker date="1512577958918" expanded="true" signature="3745:3856" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -156,6 +155,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/Models/DtoUser.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/appsettings.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/Controllers/WorkoutsController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/Controllers/UsersController.cs" root0="FORCE_HIGHLIGHTING" />
@@ -163,8 +163,8 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/215E343F-92F7-4069-B125-6F32B7E73FF2/3f/d7c8f70a/JwtSecurityTokenHandler.cs" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/Models/User.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/DAL/ApplicationDbContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/53E22681-8A59-4D67-9E4B-7E1EFC78961B/9c/5ba225dc/JwtBearerDefaults.cs" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/Models/Exercise.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/Models/DtoUser.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/Startup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/Models/Workout.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -183,8 +183,8 @@
         <option value="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/ApplicationDbContext.cs" />
         <option value="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/Models/User.cs" />
         <option value="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/Models/DtoUser.cs" />
-        <option value="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/Startup.cs" />
         <option value="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/Controllers/UsersController.cs" />
+        <option value="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/Startup.cs" />
       </list>
     </option>
   </component>
@@ -304,7 +304,7 @@
       <updated>1511902026362</updated>
       <workItem from="1511902029800" duration="3550000" />
       <workItem from="1512415297386" duration="1963000" />
-      <workItem from="1512570430778" duration="5532000" />
+      <workItem from="1512570430778" duration="5966000" />
     </task>
     <task id="LOCAL-00001" summary="Angular client added">
       <created>1511902822468</created>
@@ -397,11 +397,18 @@
       <option name="project" value="LOCAL" />
       <updated>1512576457083</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="JWT update">
+      <created>1512577471928</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1512577471929</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11045000" />
+    <option name="totallyTimeSpent" value="11479000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -454,7 +461,8 @@
     <MESSAGE value="Client update" />
     <MESSAGE value="Users controller update" />
     <MESSAGE value="Login return json fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="Login return json fix" />
+    <MESSAGE value="JWT update" />
+    <option name="LAST_COMMIT_MESSAGE" value="JWT update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -563,20 +571,20 @@
         <state relative-caret-position="660">
           <caret line="58" column="56" lean-forward="false" selection-start-line="58" selection-start-column="53" selection-end-line="58" selection-end-column="56" />
           <folding>
-            <marker date="1512577330095" expanded="true" signature="6:621" ph="..." />
-            <marker date="1512577330095" expanded="true" signature="662:4021" ph="{...}" />
-            <marker date="1512577330095" expanded="true" signature="689:4019" ph="{...}" />
-            <marker date="1512577330095" expanded="true" signature="748:811" ph="{...}" />
-            <marker date="1512577330095" expanded="true" signature="1034:3076" ph="{...}" />
-            <marker date="1512577330095" expanded="true" signature="1290:1555" ph="{...}" />
-            <marker date="1512577330095" expanded="true" signature="1949:2268" ph="{...}" />
-            <marker date="1512577330095" expanded="true" signature="2391:3020" ph="{...}" />
-            <marker date="1512577330095" expanded="true" signature="2516:3001" ph="{...}" />
-            <marker date="1512577330095" expanded="true" signature="3264:4013" ph="{...}" />
-            <marker date="1512577330095" expanded="true" signature="3311:3388" ph="{...}" />
-            <marker date="1512577330095" expanded="true" signature="3405:3489" ph="{...}" />
-            <marker date="1512577330095" expanded="true" signature="3536:3890" ph="{...}" />
-            <marker date="1512577330095" expanded="true" signature="3765:3876" ph="{...}" />
+            <marker date="1512577958918" expanded="true" signature="6:621" ph="..." />
+            <marker date="1512577958918" expanded="true" signature="662:4001" ph="{...}" />
+            <marker date="1512577958918" expanded="true" signature="689:3999" ph="{...}" />
+            <marker date="1512577958918" expanded="true" signature="748:811" ph="{...}" />
+            <marker date="1512577958918" expanded="true" signature="1034:3056" ph="{...}" />
+            <marker date="1512577958918" expanded="true" signature="1290:1555" ph="{...}" />
+            <marker date="1512577958918" expanded="true" signature="1962:2281" ph="{...}" />
+            <marker date="1512577958918" expanded="true" signature="2371:3000" ph="{...}" />
+            <marker date="1512577958918" expanded="true" signature="2496:2981" ph="{...}" />
+            <marker date="1512577958918" expanded="true" signature="3244:3993" ph="{...}" />
+            <marker date="1512577958918" expanded="true" signature="3291:3368" ph="{...}" />
+            <marker date="1512577958918" expanded="true" signature="3385:3469" ph="{...}" />
+            <marker date="1512577958918" expanded="true" signature="3516:3870" ph="{...}" />
+            <marker date="1512577958918" expanded="true" signature="3745:3856" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -660,20 +668,20 @@
         <state relative-caret-position="390">
           <caret line="26" column="155" lean-forward="false" selection-start-line="26" selection-start-column="155" selection-end-line="26" selection-end-column="155" />
           <folding>
-            <marker date="1512577330095" expanded="true" signature="6:621" ph="..." />
-            <marker date="1512577330095" expanded="true" signature="662:4021" ph="{...}" />
-            <marker date="1512577330095" expanded="true" signature="689:4019" ph="{...}" />
-            <marker date="1512577330095" expanded="true" signature="748:811" ph="{...}" />
-            <marker date="1512577330095" expanded="true" signature="1034:3076" ph="{...}" />
-            <marker date="1512577330095" expanded="true" signature="1290:1555" ph="{...}" />
-            <marker date="1512577330095" expanded="true" signature="1949:2268" ph="{...}" />
-            <marker date="1512577330095" expanded="true" signature="2391:3020" ph="{...}" />
-            <marker date="1512577330095" expanded="true" signature="2516:3001" ph="{...}" />
-            <marker date="1512577330095" expanded="true" signature="3264:4013" ph="{...}" />
-            <marker date="1512577330095" expanded="true" signature="3311:3388" ph="{...}" />
-            <marker date="1512577330095" expanded="true" signature="3405:3489" ph="{...}" />
-            <marker date="1512577330095" expanded="true" signature="3536:3890" ph="{...}" />
-            <marker date="1512577330095" expanded="true" signature="3765:3876" ph="{...}" />
+            <marker date="1512577958918" expanded="true" signature="6:621" ph="..." />
+            <marker date="1512577958918" expanded="true" signature="662:4001" ph="{...}" />
+            <marker date="1512577958918" expanded="true" signature="689:3999" ph="{...}" />
+            <marker date="1512577958918" expanded="true" signature="748:811" ph="{...}" />
+            <marker date="1512577958918" expanded="true" signature="1034:3056" ph="{...}" />
+            <marker date="1512577958918" expanded="true" signature="1290:1555" ph="{...}" />
+            <marker date="1512577958918" expanded="true" signature="1962:2281" ph="{...}" />
+            <marker date="1512577958918" expanded="true" signature="2371:3000" ph="{...}" />
+            <marker date="1512577958918" expanded="true" signature="2496:2981" ph="{...}" />
+            <marker date="1512577958918" expanded="true" signature="3244:3993" ph="{...}" />
+            <marker date="1512577958918" expanded="true" signature="3291:3368" ph="{...}" />
+            <marker date="1512577958918" expanded="true" signature="3385:3469" ph="{...}" />
+            <marker date="1512577958918" expanded="true" signature="3516:3870" ph="{...}" />
+            <marker date="1512577958918" expanded="true" signature="3745:3856" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -828,33 +836,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/Startup.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="71" column="68" lean-forward="false" selection-start-line="71" selection-start-column="68" selection-end-line="71" selection-end-column="68" />
-          <folding>
-            <marker date="1512577330095" expanded="true" signature="6:621" ph="..." />
-            <marker date="1512577330095" expanded="true" signature="662:4021" ph="{...}" />
-            <marker date="1512577330095" expanded="true" signature="689:4019" ph="{...}" />
-            <marker date="1512577330095" expanded="true" signature="748:811" ph="{...}" />
-            <marker date="1512577330095" expanded="true" signature="1034:3076" ph="{...}" />
-            <marker date="1512577330095" expanded="true" signature="1290:1555" ph="{...}" />
-            <marker date="1512577330095" expanded="true" signature="1949:2268" ph="{...}" />
-            <marker date="1512577330095" expanded="true" signature="2391:3020" ph="{...}" />
-            <marker date="1512577330095" expanded="true" signature="2516:3001" ph="{...}" />
-            <marker date="1512577330095" expanded="true" signature="3264:4013" ph="{...}" />
-            <marker date="1512577330095" expanded="true" signature="3311:3388" ph="{...}" />
-            <marker date="1512577330095" expanded="true" signature="3405:3489" ph="{...}" />
-            <marker date="1512577330095" expanded="true" signature="3536:3890" ph="{...}" />
-            <marker date="1512577330095" expanded="true" signature="3765:3876" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/Controllers/UsersController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="30" column="43" lean-forward="true" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
+        <state relative-caret-position="285">
+          <caret line="29" column="22" lean-forward="false" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="22" />
           <folding>
             <marker date="1512577458319" expanded="false" signature="6:358" ph="..." />
             <marker date="1512577458319" expanded="true" signature="411:4293" ph="{...}" />
@@ -873,6 +858,37 @@
             <marker date="1512577458319" expanded="true" signature="3129:3238" ph="{...}" />
             <marker date="1512577458319" expanded="true" signature="3351:4285" ph="{...}" />
             <marker date="1512577458319" expanded="true" signature="3411:3733" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/53E22681-8A59-4D67-9E4B-7E1EFC78961B/9c/5ba225dc/JwtBearerDefaults.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="24" lean-forward="false" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/Startup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="61" column="43" lean-forward="false" selection-start-line="61" selection-start-column="43" selection-end-line="61" selection-end-column="43" />
+          <folding>
+            <marker date="1512577958918" expanded="true" signature="6:621" ph="..." />
+            <marker date="1512577958918" expanded="true" signature="662:4001" ph="{...}" />
+            <marker date="1512577958918" expanded="true" signature="689:3999" ph="{...}" />
+            <marker date="1512577958918" expanded="true" signature="748:811" ph="{...}" />
+            <marker date="1512577958918" expanded="true" signature="1034:3056" ph="{...}" />
+            <marker date="1512577958918" expanded="true" signature="1290:1555" ph="{...}" />
+            <marker date="1512577958918" expanded="true" signature="1962:2281" ph="{...}" />
+            <marker date="1512577958918" expanded="true" signature="2371:3000" ph="{...}" />
+            <marker date="1512577958918" expanded="true" signature="2496:2981" ph="{...}" />
+            <marker date="1512577958918" expanded="true" signature="3244:3993" ph="{...}" />
+            <marker date="1512577958918" expanded="true" signature="3291:3368" ph="{...}" />
+            <marker date="1512577958918" expanded="true" signature="3385:3469" ph="{...}" />
+            <marker date="1512577958918" expanded="true" signature="3516:3870" ph="{...}" />
+            <marker date="1512577958918" expanded="true" signature="3745:3856" ph="{...}" />
           </folding>
         </state>
       </provider>

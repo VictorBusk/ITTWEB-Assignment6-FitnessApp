@@ -45,6 +45,7 @@ namespace ITTWEB_Assignment6_FitnessApp
             
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseMySql(mySqlConnectionString.ConnectionString));
+            
             services.AddIdentity<User, IdentityRole>()
                 .AddEntityFrameworkStores<ApplicationDbContext>()
                 .AddDefaultTokenProviders();
@@ -58,7 +59,7 @@ namespace ITTWEB_Assignment6_FitnessApp
                 options.Password.RequireUppercase = false;
             });
 
-            services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+            services.AddAuthentication("JWT")
                 .AddJwtBearer(options =>
                 {
                     options.TokenValidationParameters = new TokenValidationParameters
