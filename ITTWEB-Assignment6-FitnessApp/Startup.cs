@@ -62,12 +62,14 @@ namespace ITTWEB_Assignment6_FitnessApp
             services.AddAuthentication("JWT")
                 .AddJwtBearer(options =>
                 {
+                    options.RequireHttpsMetadata = false;
+                    options.SaveToken = true;
                     options.TokenValidationParameters = new TokenValidationParameters
                     {
-                        ValidateIssuer = true,
-                        ValidateAudience = true,
+                        ValidateIssuer = false,
+                        ValidateAudience = false,
                         ValidateLifetime = true,
-                        ValidateIssuerSigningKey = true,
+                        ValidateIssuerSigningKey = false,
                         ValidIssuer = "ittweb6.herokuapp.com",
                         ValidAudience = "ittweb6.herokuapp.com",
                         IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("70061ee6-92a1-4bd2-8ba3-2b38d7050f14"))

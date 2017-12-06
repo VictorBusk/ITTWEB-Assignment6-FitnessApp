@@ -26,6 +26,12 @@ namespace ITTWEB_Assignment6_FitnessApp.Controllers
             _signInManager = signInManager;
         }
         
+        [Authorize(ActiveAuthenticationSchemes = "JWT")]
+        [HttpGet("test")]
+        public IEnumerable<string> Test() {
+            return new string[] { "Hello", "World" };
+        }
+        
         [Authorize]
         [HttpGet("users")]
         public IEnumerable<string> Get() {
@@ -42,7 +48,7 @@ namespace ITTWEB_Assignment6_FitnessApp.Controllers
             return new string[] { "Hello", "World" };
         }
         
-        
+        [AllowAnonymous]
         [HttpPost("users")]
         //public async Task<IActionResult> Register([FromBody] string email, [FromBody] string password, [FromBody] string name)
         public async Task<IActionResult> Post([FromBody] DtoUser dtoUser)
@@ -71,6 +77,7 @@ namespace ITTWEB_Assignment6_FitnessApp.Controllers
             return Ok();
         }
         
+        [AllowAnonymous]
         [HttpPost("login")]
         public async Task<IActionResult> login([FromBody]DtoUser dtoUser)
         {
@@ -94,7 +101,7 @@ namespace ITTWEB_Assignment6_FitnessApp.Controllers
             {
                 new Claim(ClaimTypes.Name, username),
                 new Claim(JwtRegisteredClaimNames.Nbf, new DateTimeOffset(DateTime.Now).ToUnixTimeSeconds().ToString()),
-                new Claim(JwtRegisteredClaimNames.Exp, new DateTimeOffset(DateTime.Now.AddDays(1)).ToUnixTimeSeconds().ToString()),
+                new Claim(JwtRegisteredClaimNames.Exp, new DateTimeOffset(DateTime.Now.AddHours(12)).ToUnixTimeSeconds().ToString()),
             };
 
             var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("70061ee6-92a1-4bd2-8ba3-2b38d7050f14"));
@@ -104,7 +111,7 @@ namespace ITTWEB_Assignment6_FitnessApp.Controllers
                 issuer: "ittweb6.herokuapp.com",
                 audience: "ittweb6.herokuapp.com",
                 claims: claims,
-                expires: DateTime.Now.AddMinutes(15),
+                expires: DateTime.Now.AddHours(12),
                 signingCredentials: cred);
 
             return new JwtSecurityTokenHandler().WriteToken(token);
