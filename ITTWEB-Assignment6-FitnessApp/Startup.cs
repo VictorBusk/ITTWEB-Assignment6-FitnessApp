@@ -99,7 +99,7 @@ namespace ITTWEB_Assignment6_FitnessApp
             app.UseAuthentication();
             app.UseCors(builder =>
             {
-                builder.WithOrigins("https://ittweb6.herokuapp.com")
+                builder.AllowAnyOrigin()
                     .AllowAnyHeader()
                     .AllowAnyMethod()
                     .AllowCredentials();
