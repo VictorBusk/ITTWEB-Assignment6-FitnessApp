@@ -26,6 +26,12 @@ namespace ITTWEB_Assignment6_FitnessApp.Controllers
             _signInManager = signInManager;
         }
         
+        [AllowAnonymous]
+        [HttpGet("clean")]
+        public IEnumerable<string> Clean() {
+            return new string[] { "Hello", "World" };
+        }
+        
         [Authorize(ActiveAuthenticationSchemes = "JWT")]
         [HttpGet("test")]
         public IEnumerable<string> Test() {
