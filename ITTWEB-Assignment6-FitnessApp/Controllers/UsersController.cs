@@ -81,7 +81,7 @@ namespace ITTWEB_Assignment6_FitnessApp.Controllers
             var passwordSignInResult = await _signInManager.CheckPasswordSignInAsync(user, dtoUser.Password, false);
             if (passwordSignInResult.Succeeded)
             {
-                return new JsonResult("token: JWT " + GenerateToken(dtoUser.Email));
+                return new JsonResult("\"token\": \"JWT " + GenerateToken(dtoUser.Email) + "\"");
             }
             return BadRequest("Invalid login");
         }
