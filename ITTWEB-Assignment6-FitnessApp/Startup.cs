@@ -74,7 +74,7 @@ namespace ITTWEB_Assignment6_FitnessApp
                     };
                 });
             
-            services.AddMvc();
+            services.AddMvc().AddJsonOptions(options => { options.SerializerSettings.Formatting = Newtonsoft.Json.Formatting.Indented; });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

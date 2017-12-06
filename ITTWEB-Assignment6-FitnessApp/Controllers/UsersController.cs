@@ -27,11 +27,6 @@ namespace ITTWEB_Assignment6_FitnessApp.Controllers
         }
         
         [Authorize]
-        [HttpGet("test")]
-        public IEnumerable<string> Test() {
-            return new string[] { "Hello", "World" };
-        }
-        
         [HttpGet("users")]
         public IEnumerable<string> Get() {
             return new string[] { "Hello", "World" };
