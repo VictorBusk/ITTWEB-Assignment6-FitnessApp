@@ -2,6 +2,7 @@
 using ITTWEB_Assignment6_FitnessApp.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace ITTWEB_Assignment6_FitnessApp.Controllers
 {
@@ -18,10 +19,13 @@ namespace ITTWEB_Assignment6_FitnessApp.Controllers
         }
         
         [AllowAnonymous]
-        [HttpGet]
-        public JsonResult Get()
+        [HttpGet("{id}")]
+        public JsonResult Get([FromRoute] long id)
         {
-            return Json(_context.Exercises.ToList());
+            Workout workout = _context.Workouts.Include(w => w.Exercises).First(w => w.Id == id);
+            
+            //return Json(_context.Exercises.ToList());
+            return Json(workout.Exercises.ToList());
         }
         
         [HttpPost]
@@ -30,7 +34,9 @@ namespace ITTWEB_Assignment6_FitnessApp.Controllers
             var newExercise = new Exercise()
             {
                 Name = dtoExercise.Name,
-                Description = dtoExercise.Description
+                Description = dtoExercise.Description,
+                Reps = dtoExercise.Reps,
+                Sets = dtoExercise.Sets
             };
 
             var dbExercise = _context.Exercises.Add(newExercise);
