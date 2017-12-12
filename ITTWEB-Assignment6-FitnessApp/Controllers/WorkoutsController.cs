@@ -19,6 +19,7 @@ namespace ITTWEB_Assignment6_FitnessApp.Controllers
             _context = context;
         }
         
+        [AllowAnonymous]
         [HttpGet]
         public JsonResult Get()
         {
