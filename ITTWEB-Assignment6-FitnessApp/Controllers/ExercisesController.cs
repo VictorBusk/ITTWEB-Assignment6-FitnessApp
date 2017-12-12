@@ -1,4 +1,5 @@
-﻿using System.Linq;
+﻿using System;
+using System.Linq;
 using ITTWEB_Assignment6_FitnessApp.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -7,7 +8,7 @@ using Microsoft.EntityFrameworkCore;
 namespace ITTWEB_Assignment6_FitnessApp.Controllers
 {
     [Produces("application/json")]
-    [Route("api/excercises")]
+    [Route("api/exercises")]
     [Authorize]
     public class ExercisesController : Controller
     {
