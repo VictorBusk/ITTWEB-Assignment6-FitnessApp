@@ -2,9 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f87b17b-3444-46c3-8648-d2c695152ca6" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/.gitignore" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.idea.ITTWEB-Assignment6-FitnessApp/.idea/contentModel.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.idea.ITTWEB-Assignment6-FitnessApp/.idea/dataSources.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.idea.ITTWEB-Assignment6-FitnessApp/.idea/dataSources/7d445832-b049-4536-9fdc-d98c4e2d8bc3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.idea.ITTWEB-Assignment6-FitnessApp/.idea/indexLayout.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.idea.ITTWEB-Assignment6-FitnessApp/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.idea.ITTWEB-Assignment6-FitnessApp/.idea/vcs.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.idea.ITTWEB-Assignment6-FitnessApp/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.idea.ITTWEB-Assignment6-FitnessApp/riderModule.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/bin/Debug/netcoreapp2.0/ITTWEB-Assignment6-FitnessApp.deps.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/bin/Debug/netcoreapp2.0/ITTWEB-Assignment6-FitnessApp.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/bin/Debug/netcoreapp2.0/ITTWEB-Assignment6-FitnessApp.pdb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/bin/Debug/netcoreapp2.0/ITTWEB-Assignment6-FitnessApp.runtimeconfig.dev.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/bin/Debug/netcoreapp2.0/ITTWEB-Assignment6-FitnessApp.runtimeconfig.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/obj/Debug/netcoreapp2.0/ITTWEB-Assignment6-FitnessApp.AssemblyInfo.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/obj/Debug/netcoreapp2.0/ITTWEB-Assignment6-FitnessApp.AssemblyInfoInputs.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/obj/Debug/netcoreapp2.0/ITTWEB-Assignment6-FitnessApp.csproj.CoreCompileInputs.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/obj/Debug/netcoreapp2.0/ITTWEB-Assignment6-FitnessApp.csproj.FileListAbsolute.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/obj/Debug/netcoreapp2.0/ITTWEB-Assignment6-FitnessApp.csprojResolveAssemblyReference.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/obj/Debug/netcoreapp2.0/ITTWEB-Assignment6-FitnessApp.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/obj/Debug/netcoreapp2.0/ITTWEB-Assignment6-FitnessApp.pdb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/obj/ITTWEB-Assignment6-FitnessApp.csproj.EntityFrameworkCore.targets" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/obj/ITTWEB-Assignment6-FitnessApp.csproj.nuget.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/obj/ITTWEB-Assignment6-FitnessApp.csproj.nuget.g.props" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/obj/ITTWEB-Assignment6-FitnessApp.csproj.nuget.g.targets" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/obj/project.assets.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/obj/project.packagespec.json" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -55,11 +79,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
-              <caret line="13" column="33" lean-forward="true" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+              <caret line="13" column="33" lean-forward="false" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="212">
+              <caret line="242" column="0" lean-forward="true" selection-start-line="242" selection-start-column="0" selection-end-line="242" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -238,6 +272,11 @@
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
               <item name="ITTWEB-Assignment6-FitnessApp (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="ITTWEB-Assignment6-FitnessApp (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="ITTWEB-Assignment6-FitnessApp" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -299,7 +338,7 @@
       <workItem from="1512415297386" duration="1963000" />
       <workItem from="1512570430778" duration="17547000" />
       <workItem from="1513065449583" duration="625000" />
-      <workItem from="1513066114670" duration="246000" />
+      <workItem from="1513066114670" duration="476000" />
     </task>
     <task id="LOCAL-00001" summary="Angular client added">
       <created>1511902822468</created>
@@ -497,11 +536,18 @@
       <option name="project" value="LOCAL" />
       <updated>1513066462229</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="API update">
+      <created>1513066537503</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1513066537503</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23931000" />
+    <option name="totallyTimeSpent" value="24161000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -566,16 +612,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/Models/Workout.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="1" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-          <folding>
-            <marker date="1512591350723" expanded="true" signature="108:300" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/Models/Exercise.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -1101,7 +1137,15 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
-          <caret line="13" column="33" lean-forward="true" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+          <caret line="13" column="33" lean-forward="false" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ITTWEB-Assignment6-FitnessApp/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="242" column="0" lean-forward="true" selection-start-line="242" selection-start-column="0" selection-end-line="242" selection-end-column="0" />
           <folding />
         </state>
       </provider>
